@@ -1,0 +1,262 @@
+/*=======================================
+
+ *** HOME PAGE STYLES ***
+
+=========================================*/
+
+@import '_mixins.scss';
+
+$color-card-title: #121212;
+$color-card-body-last-update: #B3B3B3;
+$color-card-body-text: #8D8D8D;
+$color-card-bg: #F7F7F7;
+
+
+/*common for all*/
+
+a {		
+	text-decoration: none;
+	&:hover {
+		text-decoration: none !important;		
+	}
+}
+
+/*section one icons*/
+
+.section-one-row {
+	padding: 4.5rem 3.8rem 3.8rem 3.8rem;
+}
+
+.section-one {
+	clear: both;
+	background-color: $color-section-bg;
+}
+
+.fa-icons {
+	padding-bottom: .3em;
+	padding-top: .3em;
+	overflow: hidden;
+	& i {
+		color: $color-grey;
+		font-size: 65px;
+	}	
+}
+
+.section-one-colm {
+	text-align: center;
+	margin-bottom: 41px;
+
+	& p {
+		color: $color-grey;
+		margin-top: 0px;
+	}
+
+	& .fa-icons {
+		& i {							
+			@include transformScale(1);
+			@include transitionEaseInOut(.3s);
+		}
+	}
+
+	& p {
+		@include transformScale(1);
+		@include transitionEaseInOut(.3s);
+	}
+
+	&:hover {
+		display: block;
+		background-color: $color-blue;
+		@include animationFadeIn(.3s);
+		@include border-radius(3px);
+
+		& .fa-icons {
+			& i {
+				color: $color-white;
+				@include transformScale(.8);
+				@include transitionEaseInOut(.3s);
+			}
+		}
+
+		& p {
+			color: $color-white;
+			@include transformScale(1.2);
+			@include transitionEaseInOut(.3s);
+		}
+	}
+}
+
+
+/*view all categories link*/
+
+.categories-link-colm {
+	& a {		
+		float: right;
+		font-size: 17px;
+		&:hover {
+			color: darken($color-blue, 10%);
+		}
+	}
+	& i {
+		font-size: 14px;
+	}
+}
+
+/*section two cards*/
+
+.section-two-title {
+	color: $color-black;	
+	padding-top: 3.9em;
+	@include flex();
+	justify-content: center;
+
+	& h1 {
+		font-size: 38px;		
+	}
+}
+
+.section-two-row {
+	padding: 3rem 0 2.8rem 0;
+}
+
+.section-two-colm {
+
+	& .card {
+		border: 0;
+		background: $color-card-bg;
+		margin-bottom: 30px;
+		-webkit-box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
+		-moz-box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
+		box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
+	}
+
+	& .card-title {
+		color: $color-card-title;
+		font-size: 22px;
+		text-transform: uppercase;
+	}
+	& .card-last-update {
+		color: $color-card-body-last-update;
+		font-size: 15px;
+		padding-bottom: 5px;
+		font-weight: normal;
+	}
+
+	& .card-text-row {
+		padding-left: 8px;
+		padding-right: 5px;
+	}
+
+	& a {
+		color: $color-card-body-text;
+		font-size: 15px;
+
+		& i {
+			padding-right: 6px;
+		}
+
+		&:hover {
+			color: $color-blue;
+		}
+	}
+
+	& .heart-icon {
+		display: flex;
+		justify-content: flex-end;
+
+		& i {
+			position: absolute;
+			top: 16px;
+			right: 19px;
+			font-size: 20px;
+			color: $color-white;
+			background: $color-blue;
+			padding: 8px;
+			border-radius: 100%;
+		}
+	}
+}
+
+/*section three black bg row */
+
+.section-three {
+	/*background-color: $color-black;*/
+	background: rgba(10, 6, 23, 1);
+}
+
+.section-three-row {
+	padding: 3rem 10rem 2rem 7rem;
+
+	& i {
+		font-size: 57px;
+		color: $color-blue;
+	}
+
+	& h1 {
+		padding-top: 10px;
+		font-size: 27px;
+		font-weight: 600;
+		color: $color-white;
+	}
+
+	& p {
+		font-size: 15px;
+		color: $color-white;
+	}
+}
+
+/*section four cards*/
+
+.section-four-container-fluid {
+	background-color: $color-card-bg;
+}
+
+.section-four-row {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+
+	& .card {
+		border: 0;
+		@include border-radius(0);
+
+		& .card-body {
+			padding-top: 25px;
+			padding-bottom: 35px;
+		}
+
+		& i {
+			color: $color-blue;
+			font-size: 55px;
+		}
+
+		& .card-title {
+			color: $color-black;
+			padding-top: 10px;
+			font-size: 28px
+		}
+
+		& .card-text {
+			color: $color-black;
+			font-size: 16px;
+		}
+	}
+}
+
+/* section five subscribe*/
+.section-five-row {
+	margin: 3rem;
+	background-color: $color-card-bg;
+	padding: 2.5rem;
+
+	& h1 {
+		font-size: 19px;
+		color: $color-black;
+		text-align: center;
+		font-weight: normal;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	& .email-sub-section-five {
+		justify-content: left !important;
+	}
+}

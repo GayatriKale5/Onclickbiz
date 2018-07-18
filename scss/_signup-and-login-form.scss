@@ -1,0 +1,132 @@
+/*=================================================
+
+ *** SIGNUP AND LOGIN PAGE FORMS STYLES ***
+
+===================================================*/
+
+@import '_mixins.scss';
+
+$form-title-color: #565656;
+$form-text-color: #565656;
+
+.forms-banner {
+	height: 250px;
+
+	& h1 {
+		padding-top: 6rem;
+	}
+
+	& .folder-path {
+		color: $color-white;
+		padding-left: 8rem;
+
+		& b {
+			font-weight: normal;
+			color: $color-blue;
+		}
+	}
+}
+
+.forms-section-row {
+	padding: 2rem 0 2rem 0;
+
+	& .card {
+		background-color: #F1F1F1;
+		border: 0;
+	}
+
+	& .card-header {
+		color: $form-title-color;
+		background-color: transparent;
+		padding: 1rem;
+		font-size: 21px;
+	}
+
+	& .card-body {
+		& form {
+			padding: 0rem 0.3rem 0.3rem 0.3rem;
+		}
+
+		& i {
+			font-size: 16px;
+			position: relative;
+			top: 31px;
+			float: left;
+			left: 15px;
+		}
+
+		& .fa-forms-mobile {
+			font-size: 18px;
+		}
+	}
+
+	& .form-control {
+		height: 2.8rem;
+	}
+
+	& .checkbox-row {
+		& .forms-checkbox,
+		& .forgot-password {
+			padding-top: 0.5rem;
+			color: $form-text-color;
+			& a {
+				color: $form-text-color;
+
+				&:hover {
+					color: $color-blue;
+				}
+			}
+		}
+	}
+
+	& .otp-input-row {
+		@include flex();
+		justify-content: center;
+	}
+
+	& .otp-num-label {
+		font-size: 23px;
+		margin-top: 7px;
+		margin-bottom: 7px;
+		text-align: right;
+		color: $color-blue;
+	}
+
+	& .send-otp-btn {
+		font-size: 16px;
+		margin-top: 0.8rem;
+	}
+}
+
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #A8A8A8 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #A8A8A8 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #A8A8A8 !important;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #A8A8A8 !important;
+  opacity: 1;
+}
+
+input[type='text']#name,
+input[type='number']#mobile-number,
+input[type='email']#forms-email,
+input[type='password']#forms-password {
+	padding-left: 39px;
+	vertical-align: center;
+	font-size: 14px;	
+}
+
+input[type=number]#mobile-number::-webkit-inner-spin-button, 
+input[type=number]#mobile-number::-webkit-outer-spin-button,
+input[type=number].otp-number::-webkit-inner-spin-button, 
+input[type=number].otp-number::-webkit-outer-spin-button { 
+	@include appearance(none);
+	margin: 0; 
+}
