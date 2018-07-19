@@ -25,12 +25,12 @@
 					<form method="post" action="#">
 						<div class="form-group col-12 mb-3">
 							<label for="service-name" class="service-name-label mt-2">Please tell us service you'r looking for</label>
-							<i class="fas fa-search fa-free-job-search"></i>
-							<input type="text" class="form-control" id="forms-service-name" placeholder="eg. Carpenter, Website Developer, Interior Designer">	
+							<i class="fas fa-search fa-post-free-job-search"></i>
+							<input type="text" class="form-control" id="post-free-job-name" placeholder="eg. Carpenter, Website Developer, Interior Designer">	
 						</div>
 						<div class="form-group col-12 col-sm-8 col-lg-6 mb-3">
 							<label for="budget" class="mt-2">What is your budget</label>
-							<select class="form-control" id="select-budget">
+							<select class="form-control" id="post-free-job-select-budget">
 								<option selected>₹5000 - ₹10000</option>
 								<option>₹10000 - ₹15000</option>
 								<option>₹15000 - ₹20000</option>
@@ -41,7 +41,7 @@
 						<div class="form-group col-12 col-sm-8 col-lg-7 mb-3">
 							<label for="budget" class="job-location-label mt-2">Location</label>
 							<i class="fa fa-map-marker-alt fa-job-location"></i>
-							<input type="text" class="form-control" id="forms-location" placeholder="Enter location">
+							<input type="text" class="form-control" id="post-free-job-location" placeholder="Enter your location">
 						</div>
 						<div class="form-group col-12 col-sm-8 col-lg-8 mb-3">
 							<label for="job-post-address">Address</label>
@@ -50,12 +50,12 @@
 						<div class="form-group col-12 col-sm-8 col-lg-7 mb-4">
 							<label for="budget" class="job-mobile-num-label mt-2">Mobile Number</label>
 							<i class="fa fa-mobile-alt fa-job-mobile"></i>
-							<input type="number" class="form-control" id="mobile-number" placeholder="Enter your mobile number">
+							<input type="number" class="form-control" id="post-free-job-mobile-number" placeholder="Enter your mobile number">
 						</div>
 						<div class="form-group col-12 col-sm-8 col-lg-7 mb-5 ml-2">
 							<label for="upload-images-job">Upload Images</label>	
 							<div class="post-free-job-btn btn-post-job upload-job-button">
-								<input type="file" class="form-control-file" id="upload-images-job">
+								<input type="file" class="form-control-file" id="post-free-job-upload-images">
 								<p><i class="fa fa-plus fa-job-upload-plus"></i>Upload</p>
 							</div>
 						</div>

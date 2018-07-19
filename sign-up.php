@@ -25,11 +25,11 @@
 					<form method="post" action="#">
 						<div class="form-group col-12 mb-3">
 							<i class="fa fa-envelope fa-forms-email"></i>
-							<input type="email" class="form-control" id="forms-email" aria-describedby="email" placeholder="Enter your email">	
+							<input type="email" class="form-control" id="sign-up-email" aria-describedby="sign-up-email" placeholder="Enter your email">	
 						</div>
 						<div class="form-group col-12 mb-3">
 							<i class="fa fa-lock fa-forms-lock"></i>
-							<input type="password" class="form-control" id="forms-password" placeholder="Enter your password">
+							<input type="password" class="form-control" id="sign-up-password" placeholder="Enter your password">
 						</div>
 
 						<div class="row or-row pt-3">
@@ -46,7 +46,7 @@
 
 						<div class="form-group col-12 mb-3">
 							<i class="fa fa-mobile-alt fa-forms-mobile"></i>
-							<input type="number" class="form-control" id="mobile-number" placeholder="Enter your mobile number">
+							<input type="number" class="form-control" id="sign-up-mobile-number" placeholder="Enter your mobile number">
 						</div>
 						<div class="form-group col-12 mb-3 text-center otp-form-group">
 							<div class="row pt-3">
@@ -55,10 +55,10 @@
 								</div>
 								<div class="col-12 col-md-7">
 									<div class="row otp-input-row">
-										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number1">
-										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number2">
-										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number3">
-										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number4">
+										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number1" placeholder="0">
+										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number2" placeholder="0">
+										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number3" placeholder="0">
+										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number4" placeholder="0">
 									</div>
 								</div>								
 							</div>
@@ -70,7 +70,7 @@
 							</div>							
 						</div>
 						<div class="col-12 send-otp-colm text-center">
-							<button type="submit" class="btn btn-primary send-otp-btn btn-post-job">Send OTP</button>
+							<button type="submit" class="btn btn-primary send-otp-btn btn-post-job">Submit</button>
 						</div>						
 					</form>
 

@@ -2,103 +2,109 @@
 
  *** POST FREE JOB PAGE STYLES ***
 
-=========================================*/
+ =========================================*/
 
 
-@import '_mixins.scss';
+ @import '_mixins.scss';
 
-$label-text-color: #272727;
+ $label-text-color: #272727;
 
-.post-free-job-card-body {
-	& label {
-		color: $label-text-color;
-		font-size: 15px;		
-	}
-	
-	& .service-name-label,
-	& .job-location-label,
-	& .job-mobile-num-label {
-		margin-left: -11px !important;
+ .post-free-job-card-body {
+ 	& label {
+ 		color: $label-text-color;
+ 		font-size: 15px;		
+ 	}
 
-		@media(max-width: 410px)
-		{
-			& {
-				margin-left: 0 !important;
-			}
-		}
-	}
+ 	& .service-name-label,
+ 	& .job-location-label,
+ 	& .job-mobile-num-label {
+ 		margin-left: -11px !important;
 
-	& .fa-free-job-search {
-		top: 55px !important;
-		font-size: 14px !important;
+ 		@media(max-width: 410px)
+ 		{
+ 			& {
+ 				margin-left: 0 !important;
+ 			}
+ 		}
+ 	}
 
-		@media(max-width: 410px) {
+ 	& .fa-post-free-job-search {
+ 		top: 53px !important;
+ 		font-size: 14px !important;
 
-			& {
-				top: 20px !important;
-			}
-		}
-	}
+ 		@media(max-width: 410px) {
 
-	& .fa-job-location {
-		top: 53px !important;
-		font-size: 15px !important;
-	}
+ 			& {
+ 				top: 20px !important;
+ 			}
+ 		}
+ 	}
 
-	& .fa-job-mobile {
-		top: 52px !important;
-		font-size: 15px !important;
-	}
+ 	& .fa-job-location {
+ 		top: 52px !important;
+ 		font-size: 14px !important;
+ 	}
 
-	& #select-budget {
-		font-size: 14px;
-	}
+ 	& .fa-job-mobile {
+ 		top: 52px !important;
+ 		font-size: 15px !important;
+ 	}
 
-	& .post-free-job-btn {
-		margin-top: 0 !important;
-		font-size: 16px;
-		width: 150px;
-	}
+ 	& #post-free-job-select-budget {
+ 		font-size: 14px;
+ 	}
 
-	.form-control {
-		height: 2.5rem;
-	}
+ 	& .post-free-job-btn {
+ 		margin-top: 0 !important;
+ 		font-size: 18px;
+ 		width: 150px;
+ 		padding-bottom: 8px;
+ 	}
 
-	& .form-control#job-post-address  {
-		height: 5rem;
-	}
+ 	.form-control {
+ 		height: 2.5rem;
+ 	}
 
-	& .form-control-file {
-		opacity: 0;
-	}
+ 	& .form-control#job-post-address  {
+ 		height: 5rem;
+ 	}
 
-	& .upload-job-button {
-		width: 105px;
-		height: 35px;
-	}
+ 	& .form-control-file {
+ 		opacity: 0;
+ 	}
 
-	& p {
-		margin-top: -23px;
-		font-size: 14px;
-	}
+ 	& .upload-job-button {
+ 		width: 105px;
+ 		height: 35px;
+ 	}
 
-	& .fa-job-upload-plus {
-		top: 6px !important;
-		left: 19px !important;
-		font-size: 9px !important;
-	}
-}
+ 	& p {
+ 		margin-top: -23px;
+ 		font-size: 14px;
+ 	}
+
+ 	& .fa-job-upload-plus {
+ 		top: 6px !important;
+ 		left: 19px !important;
+ 		font-size: 9px !important;
+ 	}
+ }
 
 
+ input[type='text']#post-free-job-name,
+ input[type='text']#post-free-job-location,
+ input[type='number']#post-free-job-mobile-number {
+ 	padding-left: 39px;
+ 	vertical-align: center;	
+ 	font-size: 14px;
+ }
 
-input[type='text']#forms-service-name,
-input[type='text']#forms-location {
-	padding-left: 39px;
-	vertical-align: center;	
-	font-size: 14px;
-}
+ input[type=number]#post-free-job-mobile-number::-webkit-inner-spin-button, 
+ input[type=number]#post-free-job-mobile-number::-webkit-outer-spin-button { 
+ 	@include appearance(none);
+ 	margin: 0; 
+ }
 
-textarea {	
-	font-size: 14px !important;
-}
-
+ textarea {	
+ 	font-size: 14px !important;
+ }

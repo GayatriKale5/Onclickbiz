@@ -2,261 +2,261 @@
 
  *** HOME PAGE STYLES ***
 
-=========================================*/
+ =========================================*/
 
-@import '_mixins.scss';
+ @import '_mixins.scss';
 
-$color-card-title: #121212;
-$color-card-body-last-update: #B3B3B3;
-$color-card-body-text: #8D8D8D;
-$color-card-bg: #F7F7F7;
-
-
-/*common for all*/
-
-a {		
-	text-decoration: none;
-	&:hover {
-		text-decoration: none !important;		
-	}
-}
-
-/*section one icons*/
-
-.section-one-row {
-	padding: 4.5rem 3.8rem 3.8rem 3.8rem;
-}
-
-.section-one {
-	clear: both;
-	background-color: $color-section-bg;
-}
-
-.fa-icons {
-	padding-bottom: .3em;
-	padding-top: .3em;
-	overflow: hidden;
-	& i {
-		color: $color-grey;
-		font-size: 65px;
-	}	
-}
-
-.section-one-colm {
-	text-align: center;
-	margin-bottom: 41px;
-
-	& p {
-		color: $color-grey;
-		margin-top: 0px;
-	}
-
-	& .fa-icons {
-		& i {							
-			@include transformScale(1);
-			@include transitionEaseInOut(.3s);
-		}
-	}
-
-	& p {
-		@include transformScale(1);
-		@include transitionEaseInOut(.3s);
-	}
-
-	&:hover {
-		display: block;
-		background-color: $color-blue;
-		@include animationFadeIn(.3s);
-		@include border-radius(3px);
-
-		& .fa-icons {
-			& i {
-				color: $color-white;
-				@include transformScale(.8);
-				@include transitionEaseInOut(.3s);
-			}
-		}
-
-		& p {
-			color: $color-white;
-			@include transformScale(1.2);
-			@include transitionEaseInOut(.3s);
-		}
-	}
-}
+ $color-card-title: #121212;
+ $color-card-body-last-update: #B3B3B3;
+ $color-card-body-text: #8D8D8D;
+ $color-card-bg: #F7F7F7;
 
 
-/*view all categories link*/
+ /*common for all*/
 
-.categories-link-colm {
-	& a {		
-		float: right;
-		font-size: 17px;
-		&:hover {
-			color: darken($color-blue, 10%);
-		}
-	}
-	& i {
-		font-size: 14px;
-	}
-}
+ a {		
+ 	text-decoration: none;
+ 	&:hover {
+ 		text-decoration: none !important;		
+ 	}
+ }
 
-/*section two cards*/
+ /*section one icons*/
 
-.section-two-title {
-	color: $color-black;	
-	padding-top: 3.9em;
-	@include flex();
-	justify-content: center;
+ .section-one-row {
+ 	padding: 4.5rem 3.8rem 3.8rem 3.8rem;
+ }
 
-	& h1 {
-		font-size: 38px;		
-	}
-}
+ .section-one {
+ 	clear: both;
+ 	background-color: $color-section-bg;
+ }
 
-.section-two-row {
-	padding: 3rem 0 2.8rem 0;
-}
+ .fa-icons {
+ 	padding-bottom: .3em;
+ 	padding-top: .3em;
+ 	overflow: hidden;
+ 	& i {
+ 		color: $color-grey;
+ 		font-size: 65px;
+ 	}	
+ }
 
-.section-two-colm {
+ .section-one-colm {
+ 	text-align: center;
+ 	margin-bottom: 41px;
 
-	& .card {
-		border: 0;
-		background: $color-card-bg;
-		margin-bottom: 30px;
-		-webkit-box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
-		-moz-box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
-		box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
-	}
+ 	& p {
+ 		color: $color-grey;
+ 		margin-top: 0px;
+ 	}
 
-	& .card-title {
-		color: $color-card-title;
-		font-size: 22px;
-		text-transform: uppercase;
-	}
-	& .card-last-update {
-		color: $color-card-body-last-update;
-		font-size: 15px;
-		padding-bottom: 5px;
-		font-weight: normal;
-	}
+ 	& .fa-icons {
+ 		& i {							
+ 			@include transformScale(1);
+ 			@include transitionEaseInOut(.3s);
+ 		}
+ 	}
 
-	& .card-text-row {
-		padding-left: 8px;
-		padding-right: 5px;
-	}
+ 	& p {
+ 		@include transformScale(1);
+ 		@include transitionEaseInOut(.3s);
+ 	}
 
-	& a {
-		color: $color-card-body-text;
-		font-size: 15px;
+ 	&:hover {
+ 		display: block;
+ 		background-color: $color-blue;
+ 		@include animationFadeIn(.3s);
+ 		@include border-radius(3px);
 
-		& i {
-			padding-right: 6px;
-		}
+ 		& .fa-icons {
+ 			& i {
+ 				color: $color-white;
+ 				@include transformScale(.8);
+ 				@include transitionEaseInOut(.3s);
+ 			}
+ 		}
 
-		&:hover {
-			color: $color-blue;
-		}
-	}
+ 		& p {
+ 			color: $color-white;
+ 			@include transformScale(1.2);
+ 			@include transitionEaseInOut(.3s);
+ 		}
+ 	}
+ }
 
-	& .heart-icon {
-		display: flex;
-		justify-content: flex-end;
 
-		& i {
-			position: absolute;
-			top: 16px;
-			right: 19px;
-			font-size: 20px;
-			color: $color-white;
-			background: $color-blue;
-			padding: 8px;
-			border-radius: 100%;
-		}
-	}
-}
+ /*view all categories link*/
 
-/*section three black bg row */
+ .categories-link-colm {
+ 	& a {		
+ 		float: right;
+ 		font-size: 17px;
+ 		&:hover {
+ 			color: darken($color-blue, 10%);
+ 		}
+ 	}
+ 	& i {
+ 		font-size: 14px;
+ 	}
+ }
 
-.section-three {
-	/*background-color: $color-black;*/
-	background: rgba(10, 6, 23, 1);
-}
+ /*section two cards*/
 
-.section-three-row {
-	padding: 3rem 10rem 2rem 7rem;
+ .section-two-title {
+ 	color: $color-black;	
+ 	padding-top: 3.9em;
+ 	@include flex();
+ 	justify-content: center;
 
-	& i {
-		font-size: 57px;
-		color: $color-blue;
-	}
+ 	& h1 {
+ 		font-size: 38px;		
+ 	}
+ }
 
-	& h1 {
-		padding-top: 10px;
-		font-size: 27px;
-		font-weight: 600;
-		color: $color-white;
-	}
+ .section-two-row {
+ 	padding: 3rem 0 2.8rem 0;
+ }
 
-	& p {
-		font-size: 15px;
-		color: $color-white;
-	}
-}
+ .section-two-colm {
 
-/*section four cards*/
+ 	& .card {
+ 		border: 0;
+ 		background: $color-card-bg;
+ 		margin-bottom: 30px;
+ 		-webkit-box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
+ 		-moz-box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
+ 		box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
+ 	}
 
-.section-four-container-fluid {
-	background-color: $color-card-bg;
-}
+ 	& .card-title {
+ 		color: $color-card-title;
+ 		font-size: 22px;
+ 		text-transform: uppercase;
+ 	}
+ 	& .card-last-update {
+ 		color: $color-card-body-last-update;
+ 		font-size: 15px;
+ 		padding-bottom: 5px;
+ 		font-weight: normal;
+ 	}
 
-.section-four-row {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+ 	& .card-text-row {
+ 		padding-left: 8px;
+ 		padding-right: 5px;
+ 	}
 
-	& .card {
-		border: 0;
-		@include border-radius(0);
+ 	& a {
+ 		color: $color-card-body-text;
+ 		font-size: 15px;
 
-		& .card-body {
-			padding-top: 25px;
-			padding-bottom: 35px;
-		}
+ 		& i {
+ 			padding-right: 6px;
+ 		}
 
-		& i {
-			color: $color-blue;
-			font-size: 55px;
-		}
+ 		&:hover {
+ 			color: $color-blue;
+ 		}
+ 	}
 
-		& .card-title {
-			color: $color-black;
-			padding-top: 10px;
-			font-size: 28px
-		}
+ 	& .heart-icon {
+ 		display: flex;
+ 		justify-content: flex-end;
 
-		& .card-text {
-			color: $color-black;
-			font-size: 16px;
-		}
-	}
-}
+ 		& i {
+ 			position: absolute;
+ 			top: 16px;
+ 			right: 19px;
+ 			font-size: 20px;
+ 			color: $color-white;
+ 			background: $color-blue;
+ 			padding: 8px;
+ 			border-radius: 100%;
+ 		}
+ 	}
+ }
 
-/* section five subscribe*/
-.section-five-row {
-	margin: 3rem;
-	background-color: $color-card-bg;
-	padding: 2.5rem;
+ /*section three black bg row */
 
-	& h1 {
-		font-size: 19px;
-		color: $color-black;
-		text-align: center;
-		font-weight: normal;
-		margin-top: 0;
-		margin-bottom: 0;
-	}
+ .section-three {
+ 	/*background-color: $color-black;*/
+ 	background: rgba(10, 6, 23, 1);
+ }
 
-	& .email-sub-section-five {
-		justify-content: left !important;
-	}
-}
+ .section-three-row {
+ 	padding: 3rem 10rem 2rem 7rem;
+
+ 	& i {
+ 		font-size: 57px;
+ 		color: $color-blue;
+ 	}
+
+ 	& h1 {
+ 		padding-top: 10px;
+ 		font-size: 27px;
+ 		font-weight: 600;
+ 		color: $color-white;
+ 	}
+
+ 	& p {
+ 		font-size: 15px;
+ 		color: $color-white;
+ 	}
+ }
+
+ /*section four cards*/
+
+ .section-four-container-fluid {
+ 	background-color: $color-card-bg;
+ }
+
+ .section-four-row {
+ 	padding-top: 5rem;
+ 	padding-bottom: 5rem;
+
+ 	& .card {
+ 		border: 0;
+ 		@include border-radius(0);
+
+ 		& .card-body {
+ 			padding-top: 25px;
+ 			padding-bottom: 35px;
+ 		}
+
+ 		& i {
+ 			color: $color-blue;
+ 			font-size: 55px;
+ 		}
+
+ 		& .card-title {
+ 			color: $color-black;
+ 			padding-top: 10px;
+ 			font-size: 28px
+ 		}
+
+ 		& .card-text {
+ 			color: $color-black;
+ 			font-size: 16px;
+ 		}
+ 	}
+ }
+
+ /* section five subscribe*/
+ .section-five-row {
+ 	margin: 3rem;
+ 	background-color: $color-card-bg;
+ 	padding: 2.5rem;
+
+ 	& h1 {
+ 		font-size: 19px;
+ 		color: $color-black;
+ 		text-align: center;
+ 		font-weight: normal;
+ 		margin-top: 0;
+ 		margin-bottom: 0;
+ 	}
+
+ 	& .email-sub-section-five {
+ 		justify-content: left !important;
+ 	}
+ }

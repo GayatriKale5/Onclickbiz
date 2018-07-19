@@ -89,7 +89,7 @@
  		& h1 {
  			color: $color-black;
  			font-size: 2.5rem;
-    		font-weight: 500;
+ 			font-weight: 500;
  		}
 
  		& p.lead {
@@ -99,8 +99,8 @@
  		& p.example {
  			text-align: left;
  			font-size: 0.8rem;
-    		padding-left: 130px;
-    		padding-top: 10px;
+ 			padding-left: 130px;
+ 			padding-top: 10px;
  		}
 
  		& .search-page-form {
@@ -136,7 +136,7 @@
  	}
  }
 
-input[type='search'].search-input-search-page {
+ input[type='search'].search-input-search-page {
  	vertical-align: center;
  	font-size: 1rem;	
  	background-color: #EBE9EE !important;

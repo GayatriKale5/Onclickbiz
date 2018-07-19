@@ -25,11 +25,11 @@
 					<form method="post" action="#">
 						<div class="form-group col-12 mb-3">
 							<i class="fa fa-user fa-forms-user"></i>
-							<input type="text" class="form-control" id="name" placeholder="Enter your name">					
+							<input type="text" class="form-control" id="login-name" placeholder="Enter your name">					
 						</div>
 						<div class="form-group col-12 mb-3">
 							<i class="fa fa-mobile-alt fa-forms-mobile"></i>
-							<input type="number" class="form-control" id="mobile-number" placeholder="Enter your mobile number">
+							<input type="number" class="form-control" id="login-mobile-number" placeholder="Enter your mobile number">
 						</div>
 						<div class="row checkbox-row">
 							<div class="form-group form-check col-12 col-md-6 pl-5 forms-checkbox text-center">

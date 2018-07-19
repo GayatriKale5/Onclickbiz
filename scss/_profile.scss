@@ -1,0 +1,33 @@
+/*=======================================
+
+ *** PROFILE PAGE STYLES ***
+
+ =========================================*/
+
+ input[type='text']#profile-name,
+ input[type='text']#profile-location,
+ input[type='number']#profile-mobile-number {
+ 	padding-left: 39px;
+ 	vertical-align: center;
+ 	font-size: 14px;	
+ }
+
+ input[type=number]#profile-mobile-number::-webkit-inner-spin-button, 
+ input[type=number]#profile-mobile-number::-webkit-outer-spin-button { 
+ 	@include appearance(none);
+ 	margin: 0; 
+ }
+
+ .profile-forms-section {
+ 	& .fa-profile-pencil,
+ 	& .fa-profile-location,
+ 	& .fa-profile-mobile {
+ 		font-size: 14px !important;
+ 		top: 27px !important;
+ 	}
+
+ 	& .form-control#profile-address {
+ 		height: 5rem;
+ 	}
+
+ }
