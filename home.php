@@ -153,24 +153,24 @@
 					<h3 class="card-last-update">Last update: 1 hr ago</h3>
 					
 					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-map-marker-alt"></i>Kurla, Mumbai
 							</a>
 						</div>
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-clock"></i>Feb 14, 2018
 							</a>
 						</div>
 					</div>
 					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-user"></i>Satish Sharma
 							</a>
 						</div>
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-folder"></i>Verified
 							</a>
@@ -191,24 +191,24 @@
 					<h3 class="card-last-update">Last update: 1 hr ago</h3>
 					
 					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-map-marker-alt"></i>Kurla, Mumbai
 							</a>
 						</div>
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-clock"></i>Feb 14, 2018
 							</a>
 						</div>
 					</div>
 					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-user"></i>Satish Sharma
 							</a>
 						</div>
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-folder"></i>Verified
 							</a>
@@ -229,24 +229,24 @@
 					<h3 class="card-last-update">Last update: 1 hr ago</h3>
 					
 					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-map-marker-alt"></i>Kurla, Mumbai
 							</a>
 						</div>
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-clock"></i>Feb 14, 2018
 							</a>
 						</div>
 					</div>
 					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-user"></i>Satish Sharma
 							</a>
 						</div>
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 pb-2">
 							<a href="#">
 								<i class="fas fa-folder"></i>Verified
 							</a>
@@ -258,44 +258,40 @@
 	</div>
 </div>
 
-
-<div class="container section-two">
+<!-- featured services -->
+<div class="container section-two pd-section-two-container">
 	<div class="row section-two-title text-center">
 		<h1>Featured Services</h1>
 	</div>
 	<div class="row section-two-row">
 		<div class="col-12 col-md-6 col-lg-4 section-two-colm wow pulse">
 			<div class="card">
-				<div class="heart-icon">
-					<a href="#"><i class="far fa-heart"></i></a>
-				</div>
 				<img class="card-img-top" src="img/home/card-world.jpg" alt="services">
 				<div class="card-body">
-					<a href="#"><h5 class="card-title">Travel World</h5></a>
-					<h3 class="card-last-update">Last update: 1 hr ago</h3>
-					
-					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-map-marker-alt"></i>Kurla, Mumbai
-							</a>
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<a href="#"><h5 class="card-title">Travel World</h5></a>
+							<div class="row card-text-row">
+								<div class="col-12 mb-1">
+									<a href="#">								
+										Lorem ipsum dolor sit
+									</a>
+								</div>
+								<div class="col-12 pt-1 fa-star-icons pb-2">
+								<a href="#">
+									<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+									&nbsp; 1 Review</p></a>			
+								</div>
+							</div>	
 						</div>
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-clock"></i>Feb 14, 2018
-							</a>
+						<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+							<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
 						</div>
 					</div>
 					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-user"></i>Satish Sharma
-							</a>
-						</div>
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-folder"></i>Verified
-							</a>
+						<div class="col-12 fs-location-text">
+							<hr class="mt-0 mb-3">
+							<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
 						</div>
 					</div>
 				</div>
@@ -304,36 +300,32 @@
 
 		<div class="col-12 col-md-6 col-lg-4 section-two-colm wow pulse">
 			<div class="card">
-				<div class="heart-icon">
-					<a href="#"><i class="far fa-heart"></i></a>
-				</div>
 				<img class="card-img-top" src="img/home/card-clinic.jpg" alt="services">
 				<div class="card-body">
-					<a href="#"><h5 class="card-title">Royal Clinic</h5></a>
-					<h3 class="card-last-update">Last update: 1 hr ago</h3>
-					
-					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-map-marker-alt"></i>Kurla, Mumbai
-							</a>
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<a href="#"><h5 class="card-title">Royal Clinic</h5></a>
+							<div class="row card-text-row">
+								<div class="col-12 mb-1">
+									<a href="#">								
+										Lorem ipsum dolor sit
+									</a>
+								</div>
+								<div class="col-12 pt-1 fa-star-icons pb-2">
+								<a href="#">
+									<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+									&nbsp; 1 Review</p></a>			
+								</div>
+							</div>	
 						</div>
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-clock"></i>Feb 14, 2018
-							</a>
+						<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+							<h3 class="price">300 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
 						</div>
 					</div>
 					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-user"></i>Satish Sharma
-							</a>
-						</div>
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-folder"></i>Verified
-							</a>
+						<div class="col-12 fs-location-text">
+							<hr class="mt-0 mb-3">
+							<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
 						</div>
 					</div>
 				</div>
@@ -342,41 +334,38 @@
 
 		<div class="col-12 col-md-6 col-lg-4 section-two-colm wow pulse">
 			<div class="card">
-				<div class="heart-icon">
-					<a href="#"><i class="far fa-heart"></i></a>
-				</div>
-				<img class="card-img-top" src="img/home/card-gym.jpg" alt="services">
+				<img class="card-img-top" 
+				     src="img/home/card-gym.jpg" alt="services">
 				<div class="card-body">
-					<a href="#"><h5 class="card-title">Golds Gym</h5></a>
-					<h3 class="card-last-update">Last update: 1 hr ago</h3>
-					
-					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-map-marker-alt"></i>Kurla, Mumbai
-							</a>
+					<div class="row">
+						<div class="col-12 col-md-8">
+							<a href="#"><h5 class="card-title">Golds Gym</h5></a>
+							<div class="row card-text-row">
+								<div class="col-12 mb-1">
+									<a href="#">								
+										Lorem ipsum dolor sit
+									</a>
+								</div>
+								<div class="col-12 pt-1 fa-star-icons pb-2">
+								<a href="#">
+									<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+									&nbsp; 1 Review</p></a>			
+								</div>
+							</div>	
 						</div>
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-clock"></i>Feb 14, 2018
-							</a>
+						<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+							<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
 						</div>
 					</div>
 					<div class="row card-text-row">
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-user"></i>Satish Sharma
-							</a>
-						</div>
-						<div class="col-12 col-md-6">
-							<a href="#">
-								<i class="fas fa-folder"></i>Verified
-							</a>
+						<div class="col-12 fs-location-text">
+							<hr class="mt-0 mb-3">
+							<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
 						</div>
 					</div>
 				</div>
 			</div>		
-		</div>
+		</div>		
 	</div>
 </div>
 
@@ -412,55 +401,55 @@
 <div class="container-fluid section-four-container-fluid">
 	<div class="container section-four-container">
 		<div class="row section-four-row">
-			<div class="col-md-4 wow zoomIn">
+			<div class="col-md-4 wow zoomIn mb-3">
 				<div class="card">
 					<div class="card-body text-center">
 						<i class="fas fa-certificate"></i>
 						<h5 class="card-title">Best Services</h5>
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, eiusmod
 							tempor incididunt ut labore.</p>
+						</div>
 					</div>
-				</div>
-			</div>			
-			<div class="col-md-4 wow zoomIn">
-				<div class="card">
-					<div class="card-body text-center">
-						<i class="fas fa-paint-brush"></i>
-						<h5 class="card-title">Best Services</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipisicing elit, eiusmod
-						tempor incididunt ut labore.</p>
+				</div>			
+				<div class="col-md-4 wow zoomIn mb-3">
+					<div class="card">
+						<div class="card-body text-center">
+							<i class="fas fa-paint-brush"></i>
+							<h5 class="card-title">Best Services</h5>
+							<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipisicing elit, eiusmod
+								tempor incididunt ut labore.</p>
+							</div>
+						</div>
 					</div>
+					<div class="col-md-4 wow zoomIn mb-3">
+						<div class="card">
+							<div class="card-body text-center">
+								<i class="fas fa-headset"></i>
+								<h5 class="card-title">Best Services</h5>
+								<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipisicing elit, eiusmod
+									tempor incididunt ut labore.</p>
+								</div>
+							</div>
+						</div>			
+					</div>			
 				</div>
 			</div>
-			<div class="col-md-4 wow zoomIn">
-				<div class="card">
-					<div class="card-body text-center">
-						<i class="fas fa-headset"></i>
-						<h5 class="card-title">Best Services</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipisicing elit, eiusmod
-						tempor incididunt ut labore.</p>
+
+			<!-- section five subscribe -->
+			<div class="containe-fluid section-five">
+				<div class="row section-five-row">
+					<div class="col-md-6">
+						<h1>Join our 10,000+ subscribers and get access to the latest templates, freebies, announcements and resources!</h1>
 					</div>
+					<div class="col-md-6 search-btn-colm email-sub-section-five">
+						<form class="form-inline my-2 my-lg-0">
+
+							<input class="form-control mr-sm-2 search-input" type="search" placeholder="Enter your email" aria-label="Search">
+
+							<button class="btn btn-primary btn-post-job btn-home-search my-2 my-sm-0" type="submit">Subscribe</button>									
+						</form>
+					</div>						
 				</div>
-			</div>			
-		</div>			
-	</div>
-</div>
+			</div>
 
-<!-- section five subscribe -->
-<div class="containe-fluid section-five">
-	<div class="row section-five-row">
-		<div class="col-md-6">
-			<h1>Join our 10,000+ subscribers and get access to the latest templates, freebies, announcements and resources!</h1>
-		</div>
-		<div class="col-md-6 search-btn-colm email-sub-section-five">
-					<form class="form-inline my-2 my-lg-0">
-
-						<input class="form-control mr-sm-2 search-input" type="search" placeholder="Enter your email" aria-label="Search">
-
-						<button class="btn btn-primary btn-post-job btn-home-search my-2 my-sm-0" type="submit">Subscribe</button>									
-					</form>
-			</div>						
-	</div>
-</div>
-
-<?php include "footer.php"; ?>
+			<?php include "footer.php"; ?>
