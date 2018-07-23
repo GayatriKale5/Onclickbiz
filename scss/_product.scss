@@ -1,3 +1,4 @@
+
 /*=======================================
 
  *** PRODUCT PAGE STYLES ***
@@ -16,8 +17,8 @@
 
  .pd-section-one-container {
  	padding-left: 0;
-    padding-right: 0;
-    
+ 	padding-right: 0;
+
  	& .pd-sec-one-details-img {
 
  		& img {
@@ -102,31 +103,31 @@
  				}
 
  				& .facebook {
- 					color: #4867AA;
+ 					color: $color-facebook;
  					&:hover {
- 						color: darken(#4867AA, 6%);
+ 						color: darken($color-facebook, 6%);
  					}
  				}
 
  				& .twitter { 					
- 					color: #55ACEF; 					
+ 					color: $color-twitter; 					
  					&:hover {
 
- 						color: darken(#55ACEF, 6%);
+ 						color: darken($color-twitter, 6%);
  					}
  				}
 
  				& .linkedin {
- 					color: #007BB6; 				 					
+ 					color: $color-linkedin; 				 					
  					&:hover {
- 						color: darken(#007BB6, 6%); 					
+ 						color: darken($color-linkedin, 6%); 					
  					}
  				}
 
  				& .google-plus-square { 					
- 					color: #DC4E42; 					
+ 					color: $color-google-plus; 					
  					&:hover {
- 						color: darken(#DC4E42, 6%); 					
+ 						color: darken($color-google-plus, 6%); 					
  					}
  				} 				
  			}
@@ -139,7 +140,7 @@
 
  	& .card {
  		border: 0;
- 		background-color: #f7f7f7;
+ 		background-color: $color-card-bg;
  		color: rgb(123, 123, 123);
 
  		& .card-body {
@@ -226,3 +227,4 @@
  		}
  	}
  }
+

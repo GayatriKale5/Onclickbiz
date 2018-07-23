@@ -6,16 +6,18 @@
 
  @import '_mixins.scss';
 
- body {
- 	font-family: $font-primary;
+ html, body {
+ 	width: 100%;
+ 	overflow-x: hidden; 
+ 	font-family: $font-first, $font-second;
  	font-size: 15px;
  	line-height: 1.6;
  	font-weight: 400;
  	color: $color-grey;
  	background: $color-white;
+ 	margin: 0px;
+ 	padding: 0px;
  }
-
-
 
  .home-header-logo {
  	width: 102px;
@@ -90,7 +92,7 @@
  		left: 31px;
  		border-left: 10px solid transparent;
  		border-right: 10px solid transparent;
- 		border-bottom: 8px solid #fff;
+ 		border-bottom: 8px solid $color-white;
  	}
 
  	/*remove triangle from dropdown list*/
@@ -103,13 +105,13 @@
  	& .onclick-navbar-nav .nav-item {
 
  		&.nav-link {
- 			color: #fff;
+ 			color: $color-white;
  		}
 
  		& .nav-link {
  			font-size: 14px;
  			font-weight: 400; 
- 			color: #fff !important;   
+ 			color: $color-white !important;   
  			text-align: center;
  			padding-left: 20px !important;
  			padding-right: 20px !important;
@@ -185,8 +187,8 @@
  	box-shadow: 0 0 0 !important;	
 
  	&:hover, &:focus, &:active {
- 		background: lighten($color-blue, 10%)!important;
- 		border-color: lighten($color-blue, 10%)!important;
+ 		background: darken($color-blue, 7%)!important;
+ 		border-color: darken($color-blue, 7%)!important;
  	}
  }
 
@@ -383,8 +385,6 @@
  $color-card-title: #121212;
  $color-card-body-last-update: #B3B3B3;
  $color-card-body-text: #8D8D8D;
- $color-card-bg: #F7F7F7;
-
 
  /*common for all*/
 
@@ -504,9 +504,7 @@
  		border: 0;
  		background: $color-card-bg;
  		margin-bottom: 30px;
- 		-webkit-box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
- 		-moz-box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
- 		box-shadow: 0px 0px 4px 3px rgba(238,238,238,1);
+ 		@include box-shadow(0, 0, 4px, 3px, rgba(238, 238, 238, 1));
  	}
 
  	& .card-title {
@@ -680,8 +678,9 @@
  	padding: 2rem 0 2rem 0;
 
  	& .card {
- 		background-color: #F1F1F1;
+ 		background-color: $color-card-bg;
  		border: 0;
+ 		@include box-shadow(2px, 2px, 17px, 1px, rgba(238, 238, 238, 1));
  	}
 
  	& .card-header {
@@ -749,20 +748,8 @@
  }
 
 
- ::-webkit-input-placeholder { /* Chrome */
- 	color: #A8A8A8 !important;
- }
- :-ms-input-placeholder { /* IE 10+ */
- 	color: #A8A8A8 !important;
- }
- ::-moz-placeholder { /* Firefox 19+ */
- 	color: #A8A8A8 !important;
- 	opacity: 1;
- }
- :-moz-placeholder { /* Firefox 4 - 18 */
- 	color: #A8A8A8 !important;
- 	opacity: 1;
- }
+ @include placeholder(#A8A8A8);
+
 
  input[type='text']#login-name,
  input[type='number']#login-mobile-number,
@@ -963,7 +950,7 @@
 
  	& p {
  		font-size: 14px;
- 		color: #fff;
+ 		color: $color-white;
  		position: absolute;
 
  		&.line-dot-title-1 {
@@ -987,6 +974,7 @@
  	& .jumbotron {
 
  		background-color: rgb(248,248,252);
+ 		@include box-shadow(2px, 2px, 17px, 1px, rgba(238, 238, 238, 1));
 
  		& h1 {
  			color: $color-black;
@@ -1033,8 +1021,6 @@
  				font-size: 1.5rem;
  			}
  		}
-
-
  	}
  }
 
@@ -1098,7 +1084,7 @@
 
  .pd-section-one-container {
  	padding-left: 0;
-    padding-right: 0;
+ 	padding-right: 0;
 
  	& .pd-sec-one-details-img {
 
@@ -1184,31 +1170,31 @@
  				}
 
  				& .facebook {
- 					color: #4867AA;
+ 					color: $color-facebook;
  					&:hover {
- 						color: darken(#4867AA, 6%);
+ 						color: darken($color-facebook, 6%);
  					}
  				}
 
  				& .twitter { 					
- 					color: #55ACEF; 					
+ 					color: $color-twitter; 					
  					&:hover {
 
- 						color: darken(#55ACEF, 6%);
+ 						color: darken($color-twitter, 6%);
  					}
  				}
 
  				& .linkedin {
- 					color: #007BB6; 				 					
+ 					color: $color-linkedin; 				 					
  					&:hover {
- 						color: darken(#007BB6, 6%); 					
+ 						color: darken($color-linkedin, 6%); 					
  					}
  				}
 
  				& .google-plus-square { 					
- 					color: #DC4E42; 					
+ 					color: $color-google-plus; 					
  					&:hover {
- 						color: darken(#DC4E42, 6%); 					
+ 						color: darken($color-google-plus, 6%); 					
  					}
  				} 				
  			}
@@ -1221,7 +1207,7 @@
 
  	& .card {
  		border: 0;
- 		background-color: #f7f7f7;
+ 		background-color: $color-card-bg;
  		color: rgb(123, 123, 123);
 
  		& .card-body {
@@ -1307,4 +1293,261 @@
  			font-size: 1rem !important;
  		}
  	}
+ }
+
+
+ /*=======================================
+
+ *** DETAIL PRODUCT PAGE STYLES ***
+
+ =========================================*/
+
+ $text-grey-color: #8F9092;
+
+ .navbar-banner {
+ 	height: 100px;
+ }
+
+ .container {
+ 	& a {
+ 		color: $color-blue;
+ 	}
+
+ 	& .title {
+ 		& h1 {
+ 			color: $color-black;
+ 			font-size: 2.5rem;
+ 			padding-top: 2rem;
+ 			font-weight: 600;
+ 			padding-bottom: 1rem;
+ 			text-transform: uppercase;
+ 		}
+ 	}
+
+ 	& .jumbotron-info,
+ 	& .jumbotron-desc,
+ 	& .jumbotron-bid-proposal {
+ 		@include border-radius(0);
+ 		background-color: $color-card-bg;
+ 		@include box-shadow(2px, 2px, 17px, 1px, rgba(226, 226, 226, 1));
+ 	}
+
+ 	& .jumbotron-info {
+ 		color: $color-blue; 		
+ 		& .border-right-info {
+ 			border-right: 2px solid rgb(215, 215, 215) !important;
+ 			margin-top: 36px;
+ 			height: 43px;
+ 		}
+
+ 		& h3 {
+ 			padding-bottom: 5px;
+ 		}
+
+ 		& p {
+ 			padding-top: 0;
+ 			padding-bottom: 0;
+ 			font-size: 16px;
+ 			margin-bottom: 2px;
+ 			margin-top: -20px;
+ 			font-weight: 500;
+ 			color: $color-black;
+ 		}
+
+ 		& i {
+ 			font-style: normal;
+ 			font-size: 25px;
+ 		}
+
+ 		& .price {
+ 			padding-top: 43px;
+ 			padding-bottom: 3px;
+ 		}
+
+ 		& .blue-text {
+ 			& p {
+ 				color: $color-blue;
+ 				margin-top: 0;
+ 			}
+ 			& h3 {
+ 				padding-right: 42px;
+ 			}
+ 		}
+ 	}
+
+ 	& .jumbotron-desc {
+ 		& h1,
+ 		& p {
+ 			padding-left: 1rem;
+ 		}
+
+ 		& .detail-project-btn {
+ 			margin-left: 1rem;
+ 			width: 210px;
+ 			height: 49px;
+ 			margin-bottom: 3rem;
+ 			font-size: 1.3rem;
+ 		}
+
+ 		& h1 {
+ 			color: $color-black;
+ 			padding-top: 2.5rem;
+ 			padding-bottom: 0.5rem;
+ 			font-weight: 600;
+ 			font-size: 2.1rem;
+ 		}
+
+ 		& p { 			
+ 			color: $color-black;
+ 			margin-bottom: 0.8rem; 			
+ 		}
+
+ 		& .desc-skills-title {
+ 			padding-top: 1.6rem;
+ 		}
+
+ 		& .desc-text-blue {
+ 			color: $color-blue;
+ 			font-size: 1.08rem;
+ 			padding-bottom: 0.3rem;
+ 		}
+ 	}
+
+ 	& .jumbotron-bid-proposal {
+ 		color: $text-grey-color;
+
+ 		& p {
+ 			padding-left: 1rem;
+ 			font-size: 1.08rem;
+ 		}
+
+ 		& .desc-and-btn {
+ 			& .jumbotron-bid-desc {
+ 				background-color: lighten($color-blue, 16%);
+ 				color: $color-black;
+ 				border: 1px solid $color-grey;
+ 			}
+
+ 			.no-of-bids-btn {
+ 				width: 238px;
+ 				height: 50px;
+ 				font-size: 1.2rem;
+ 			}
+ 		}
+
+ 		& .rate-row {
+ 			& h1 {
+ 				color: $color-black;
+ 				font-size: 1.3rem;
+ 				padding-left: 1rem;
+ 			}
+
+
+ 			& .rate-row-form input[type='number'] {
+ 				padding: 6.2px;
+ 				font-size: 17px;
+ 				border: 0;
+ 				float: left;
+ 				width: 48%;
+ 				background: lighten($color-grey, 32%); 				
+ 			}
+
+ 			@include placeholder($color-black);
+ 			
+ 			& .rate-row-form input:focus {
+ 				outline: 0;
+ 			}
+
+ 			& .btn-rate-row {
+ 				float: left;
+ 				width: 52%;
+ 				padding: 10px;
+ 				cursor: pointer;
+ 				@include border-radius(0);
+ 				border-top-right-radius: 2px;
+ 				border-bottom-right-radius: 2px;
+ 				line-height: 1;
+ 				font-size: 1.08rem;
+
+ 				&:hover{
+ 					background: darken($color-blue, 8%);
+ 				}
+ 			}
+
+ 		}
+
+ 		& .price-row {
+ 			& p {
+ 				margin-bottom: .3rem;
+ 			}
+
+ 			& .btn-qstn-mark {
+ 				width: 0;
+ 				height: 0;
+ 				padding: 0;
+ 				background: transparent;
+ 				border: transparent;
+
+ 				& i {
+ 					color: $color-blue;
+ 					font-size: 1rem;
+ 				}
+ 			}
+ 			
+ 			& .right-side-price {
+ 				& p {
+ 					color: $color-black;
+
+ 					& i {
+ 						font-style: normal;
+ 						font-size: 1rem;
+ 					}
+ 				}
+ 			}
+ 		}
+
+ 		& p.note-p {
+ 			margin-top: 1rem;
+ 		}
+
+ 		& .blue-text {
+ 			color: $color-blue;
+ 			font-weight: normal;
+ 		}
+
+ 		& .btn-place-bid-row {
+ 			& .place-bid-btn,
+ 			& a {
+ 				font-size: 1.3rem;
+ 			}
+ 		}
+
+ 	}
+ }
+
+ /*question mark popover*/
+ .popover {
+ 	background: $color-card-bg;
+ 	margin-left: 1.6rem;
+ 	margin-top: 0.7rem;	
+ }
+
+ .bs-popover-auto[x-placement^=right] .arrow::after, 
+ .bs-popover-right .arrow::after {
+ 	border-right-color: $color-card-bg; 	
+ }
+
+ .popover-body {
+ 	color: $text-grey-color;
+ 	font-size: .9rem;
+ 	letter-spacing: 0.6px;
+ }
+
+
+ input[type=number].rate-row-number-hr::-webkit-inner-spin-button,
+ input[type=number].rate-row-number-hr::-webkit-outer-spin-button,
+ input[type=number].rate-row-number-week::-webkit-inner-spin-button,
+ input[type=number].rate-row-number-week::-webkit-outer-spin-button { 
+ 	@include appearance(none);
+ 	margin: 0; 
  }

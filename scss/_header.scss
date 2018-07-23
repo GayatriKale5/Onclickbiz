@@ -6,16 +6,18 @@
 
  @import '_mixins.scss';
 
- body {
- 	font-family: $font-primary;
+ html, body {
+ 	width: 100%;
+ 	overflow-x: hidden; 
+ 	font-family: $font-first, $font-second;
  	font-size: 15px;
  	line-height: 1.6;
  	font-weight: 400;
  	color: $color-grey;
  	background: $color-white;
+ 	margin: 0px;
+ 	padding: 0px;
  }
-
-
 
  .home-header-logo {
  	width: 102px;
@@ -90,7 +92,7 @@
  		left: 31px;
  		border-left: 10px solid transparent;
  		border-right: 10px solid transparent;
- 		border-bottom: 8px solid #fff;
+ 		border-bottom: 8px solid $color-white;
  	}
 
  	/*remove triangle from dropdown list*/
@@ -103,13 +105,13 @@
  	& .onclick-navbar-nav .nav-item {
 
  		&.nav-link {
- 			color: #fff;
+ 			color: $color-white;
  		}
 
  		& .nav-link {
  			font-size: 14px;
  			font-weight: 400; 
- 			color: #fff !important;   
+ 			color: $color-white !important;   
  			text-align: center;
  			padding-left: 20px !important;
  			padding-right: 20px !important;
@@ -185,8 +187,8 @@
  	box-shadow: 0 0 0 !important;	
 
  	&:hover, &:focus, &:active {
- 		background: lighten($color-blue, 10%)!important;
- 		border-color: lighten($color-blue, 10%)!important;
+ 		background: darken($color-blue, 7%)!important;
+ 		border-color: darken($color-blue, 7%)!important;
  	}
  }
 
@@ -241,7 +243,7 @@
  .search-input {
  	@include border-radius(3px);
  	border: 0;
- 	width: 18rem !important;
+ 	width: 100%;
  	height: 45px;
  }
 
