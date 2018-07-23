@@ -41,7 +41,7 @@
 			<button type="button" data-toggle="collapse" data-target="#bidProposal" aria-expanded="false" class="btn btn-primary send-otp-btn btn-post-job detail-project-btn">Bid on This Project</button>
 		</div>
 	</div>
-	<div id="bidProposal" class="row jumbotron jumbotron-bid-proposal p-0 show">
+	<div id="bidProposal" class="row jumbotron jumbotron-bid-proposal p-0 collapse">
 		<div class="col-12 text-left">
 			
 			<div class="row desc-and-btn pl-4 pt-4">
