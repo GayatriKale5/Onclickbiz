@@ -22,7 +22,7 @@
 					Post Free Job
 				</div>
 				<div class="card-body post-free-job-card-body">
-					<form method="post" action="#">
+					<form method="post" action="sign-up.php">
 						<div class="form-group col-12 mb-3">
 							<label for="service-name" class="service-name-label mt-2">Please tell us service you'r looking for</label>
 							<i class="fas fa-search fa-post-free-job-search"></i>

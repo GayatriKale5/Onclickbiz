@@ -125,7 +125,7 @@
 		</div>
 
 		<div class="col-12 categories-link-colm">
-			<a href="#">
+			<a href="categories.php">
 				<p>
 					View A to Z Categories <i class="fas fa-arrow-right"></i>
 				</p>

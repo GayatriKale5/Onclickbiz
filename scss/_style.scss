@@ -1217,6 +1217,14 @@
 
  	& .pd-left-desc {
  		padding: 0;
+
+ 		& .product-bid-on-project-btn {
+ 			margin-bottom: 1rem;
+ 			font-size: 1.2rem;
+ 			height: 45px;
+ 			width: 210px;
+ 			height: 45px;
+ 		}
  	}
 
  	& .pd-right-desc {
@@ -1308,7 +1316,7 @@
  	height: 100px;
  }
 
- .container {
+ .detail-product-container{
  	& a {
  		color: $color-blue;
  	}
@@ -1381,14 +1389,6 @@
  			padding-left: 1rem;
  		}
 
- 		& .detail-project-btn {
- 			margin-left: 1rem;
- 			width: 210px;
- 			height: 49px;
- 			margin-bottom: 3rem;
- 			font-size: 1.3rem;
- 		}
-
  		& h1 {
  			color: $color-black;
  			padding-top: 2.5rem;
@@ -1411,6 +1411,15 @@
  			font-size: 1.08rem;
  			padding-bottom: 0.3rem;
  		}
+
+ 		& .detail-project-btn {
+ 			margin-left: 1rem;
+ 			width: 210px;
+ 			height: 49px;
+ 			margin-bottom: 3rem;
+ 			font-size: 1.3rem;
+ 		}
+
  	}
 
  	& .jumbotron-bid-proposal {
@@ -1428,7 +1437,7 @@
  				border: 1px solid $color-grey;
  			}
 
- 			.no-of-bids-btn {
+ 			& .no-of-bids-btn {
  				width: 238px;
  				height: 50px;
  				font-size: 1.2rem;
@@ -1550,4 +1559,104 @@
  input[type=number].rate-row-number-week::-webkit-outer-spin-button { 
  	@include appearance(none);
  	margin: 0; 
+ }
+
+
+ /*=======================================
+
+ *** CATEGORIES PAGE STYLES ***
+
+ =========================================*/
+
+ $border-color-categories: rgb(221,221,221);
+
+ .categories-outer-container {
+ 	padding-top: 3rem;
+ 	& .location-row {
+ 		& input[type='text'] {
+ 			padding: 6.2px;
+ 			font-size: 17px;
+ 			border: 0;
+ 			float: left;
+ 			width: 80%;
+ 			background: lighten($color-grey, 35%); 				
+ 		}
+
+ 		@include placeholder($color-blue);
+
+ 		& input:focus {
+ 			outline: 0;
+ 		}
+
+ 		& .btn-location-search {
+ 			float: left;
+ 			width: 20%;
+ 			padding: 10px;
+ 			cursor: pointer;
+ 			@include border-radius(0);
+ 			border-top-right-radius: 2px;
+ 			border-bottom-right-radius: 2px;
+ 			line-height: 1;
+ 			font-size: 1.08rem;
+
+ 			&:hover{
+ 				background: darken($color-blue, 8%);
+ 			}
+ 		}
+ 	}
+ }
+
+ .categories-container {
+ 	padding-top: 1rem;
+ 	padding-bottom: 1rem;
+
+ 	/*categories names*/
+ 	& .categories-btn {
+ 		background: transparent; 		
+ 		border: 0;
+ 		margin-bottom: 19px; 		
+ 		color: rgb(110, 110, 110);
+ 		font-size: 1.08rem;
+ 		font-size: 1.2rem;
+ 		width: 0;
+ 		height: 0;
+ 		/*padding-bottom: 9px;*/
+ 		transition: transform .2s;
+
+ 		&:hover,
+ 		&:focus, 
+ 		&:active,
+ 		&:visited {
+ 			background: transparent !important;
+ 			border-color: transparent !important;
+ 			color: $color-blue !important; 			
+ 			@include transformScale(1.1); 			
+ 		}
+ 	}
+
+ 	& .jumbotron {
+ 		@include border-radius(0);
+ 		padding: 15px;
+ 		margin-bottom: 0;
+ 		border-left: 9px solid transparent;
+ 		border-bottom: 2px solid $border-color-categories;
+
+ 		&:hover,
+ 		&:active,
+ 		&:focus{
+ 			border-left: 9px solid lighten($color-blue, 25%);
+ 		}
+ 	}
+
+ 	/*categories information*/
+ 	& .categories-info {
+ 		padding-left: 2rem;
+
+ 		& h1 {
+ 			padding-top: 2rem;
+ 			padding-bottom: 2rem;
+	 		color: $color-black;
+ 			font-size: 1.5rem;
+ 		}	
+ 	}
  }

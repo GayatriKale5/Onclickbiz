@@ -22,7 +22,7 @@
 					Sign Up
 				</div>
 				<div class="card-body">
-					<form method="post" action="#">
+					<form method="post" action="profile.php">
 						<div class="form-group col-12 mb-3">
 							<i class="fa fa-envelope fa-forms-email"></i>
 							<input type="email" class="form-control" id="sign-up-email" aria-describedby="sign-up-email" placeholder="Enter your email">	

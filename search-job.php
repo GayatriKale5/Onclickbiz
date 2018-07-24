@@ -34,7 +34,7 @@
 					<h1>What Service do you provide?</h1>
 					<p class="lead">You can edit this later from your business profile</p>
 
-					<form class="form-inline my-2 my-lg-0 search-page-form text-center">
+					<form class="form-inline my-2 my-lg-0 search-page-form text-center" method="post" action="sign-up.php">
 						<input class="form-control mr-sm-2 search-input-search-page" type="search" placeholder="Enter service(s) you provide" aria-label="Search">
 
 						<button class="btn btn-outline-success btn-post-job search-btn-search-page my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>

@@ -1113,6 +1113,13 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
 .pd-section-two-container .pd-left-desc {
   padding: 0;
 }
+.pd-section-two-container .pd-left-desc .product-bid-on-project-btn {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  height: 45px;
+  width: 210px;
+  height: 45px;
+}
 .pd-section-two-container .pd-right-desc a {
   color: #7b7b7b;
 }
@@ -1174,10 +1181,10 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
   height: 100px;
 }
 
-.container a {
+.detail-product-container a {
   color: #34A8DD;
 }
-.container .title h1 {
+.detail-product-container .title h1 {
   color: #000;
   font-size: 2.5rem;
   padding-top: 2rem;
@@ -1185,7 +1192,7 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
   padding-bottom: 1rem;
   text-transform: uppercase;
 }
-.container .jumbotron-info, .container .jumbotron-desc, .container .jumbotron-bid-proposal {
+.detail-product-container .jumbotron-info, .detail-product-container .jumbotron-desc, .detail-product-container .jumbotron-bid-proposal {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -1195,18 +1202,18 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
   -moz-box-shadow: 2px 2px 17px 1px #e2e2e2;
   box-shadow: 2px 2px 17px 1px #e2e2e2;
 }
-.container .jumbotron-info {
+.detail-product-container .jumbotron-info {
   color: #34A8DD;
 }
-.container .jumbotron-info .border-right-info {
+.detail-product-container .jumbotron-info .border-right-info {
   border-right: 2px solid #d7d7d7 !important;
   margin-top: 36px;
   height: 43px;
 }
-.container .jumbotron-info h3 {
+.detail-product-container .jumbotron-info h3 {
   padding-bottom: 5px;
 }
-.container .jumbotron-info p {
+.detail-product-container .jumbotron-info p {
   padding-top: 0;
   padding-bottom: 0;
   font-size: 16px;
@@ -1215,73 +1222,73 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
   font-weight: 500;
   color: #000;
 }
-.container .jumbotron-info i {
+.detail-product-container .jumbotron-info i {
   font-style: normal;
   font-size: 25px;
 }
-.container .jumbotron-info .price {
+.detail-product-container .jumbotron-info .price {
   padding-top: 43px;
   padding-bottom: 3px;
 }
-.container .jumbotron-info .blue-text p {
+.detail-product-container .jumbotron-info .blue-text p {
   color: #34A8DD;
   margin-top: 0;
 }
-.container .jumbotron-info .blue-text h3 {
+.detail-product-container .jumbotron-info .blue-text h3 {
   padding-right: 42px;
 }
-.container .jumbotron-desc h1, .container .jumbotron-desc p {
+.detail-product-container .jumbotron-desc h1, .detail-product-container .jumbotron-desc p {
   padding-left: 1rem;
 }
-.container .jumbotron-desc .detail-project-btn {
-  margin-left: 1rem;
-  width: 210px;
-  height: 49px;
-  margin-bottom: 3rem;
-  font-size: 1.3rem;
-}
-.container .jumbotron-desc h1 {
+.detail-product-container .jumbotron-desc h1 {
   color: #000;
   padding-top: 2.5rem;
   padding-bottom: 0.5rem;
   font-weight: 600;
   font-size: 2.1rem;
 }
-.container .jumbotron-desc p {
+.detail-product-container .jumbotron-desc p {
   color: #000;
   margin-bottom: 0.8rem;
 }
-.container .jumbotron-desc .desc-skills-title {
+.detail-product-container .jumbotron-desc .desc-skills-title {
   padding-top: 1.6rem;
 }
-.container .jumbotron-desc .desc-text-blue {
+.detail-product-container .jumbotron-desc .desc-text-blue {
   color: #34A8DD;
   font-size: 1.08rem;
   padding-bottom: 0.3rem;
 }
-.container .jumbotron-bid-proposal {
+.detail-product-container .jumbotron-desc .detail-project-btn {
+  margin-left: 1rem;
+  width: 210px;
+  height: 49px;
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+}
+.detail-product-container .jumbotron-bid-proposal {
   color: #8F9092;
 }
-.container .jumbotron-bid-proposal p {
+.detail-product-container .jumbotron-bid-proposal p {
   padding-left: 1rem;
   font-size: 1.08rem;
 }
-.container .jumbotron-bid-proposal .desc-and-btn .jumbotron-bid-desc {
+.detail-product-container .jumbotron-bid-proposal .desc-and-btn .jumbotron-bid-desc {
   background-color: #7ac6e9;
   color: #000;
   border: 1px solid #9A9899;
 }
-.container .jumbotron-bid-proposal .desc-and-btn .no-of-bids-btn {
+.detail-product-container .jumbotron-bid-proposal .desc-and-btn .no-of-bids-btn {
   width: 238px;
   height: 50px;
   font-size: 1.2rem;
 }
-.container .jumbotron-bid-proposal .rate-row h1 {
+.detail-product-container .jumbotron-bid-proposal .rate-row h1 {
   color: #000;
   font-size: 1.3rem;
   padding-left: 1rem;
 }
-.container .jumbotron-bid-proposal .rate-row .rate-row-form input[type='number'] {
+.detail-product-container .jumbotron-bid-proposal .rate-row .rate-row-form input[type='number'] {
   padding: 6.2px;
   font-size: 17px;
   border: 0;
@@ -1289,28 +1296,28 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
   width: 48%;
   background: #ebeaeb;
 }
-.container .jumbotron-bid-proposal .rate-row ::-webkit-input-placeholder {
+.detail-product-container .jumbotron-bid-proposal .rate-row ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #000 !important;
 }
-.container .jumbotron-bid-proposal .rate-row :-moz-placeholder {
+.detail-product-container .jumbotron-bid-proposal .rate-row :-moz-placeholder {
   /* Firefox 4 - 18 */
   color: #000 !important;
   opacity: 1;
 }
-.container .jumbotron-bid-proposal .rate-row ::-moz-placeholder {
+.detail-product-container .jumbotron-bid-proposal .rate-row ::-moz-placeholder {
   /* Firefox 19+ */
   color: #000 !important;
   opacity: 1;
 }
-.container .jumbotron-bid-proposal .rate-row :-ms-input-placeholder {
+.detail-product-container .jumbotron-bid-proposal .rate-row :-ms-input-placeholder {
   /* IE 10+ */
   color: #000 !important;
 }
-.container .jumbotron-bid-proposal .rate-row .rate-row-form input:focus {
+.detail-product-container .jumbotron-bid-proposal .rate-row .rate-row-form input:focus {
   outline: 0;
 }
-.container .jumbotron-bid-proposal .rate-row .btn-rate-row {
+.detail-product-container .jumbotron-bid-proposal .rate-row .btn-rate-row {
   float: left;
   width: 52%;
   padding: 10px;
@@ -1324,38 +1331,38 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
   line-height: 1;
   font-size: 1.08rem;
 }
-.container .jumbotron-bid-proposal .rate-row .btn-rate-row:hover {
+.detail-product-container .jumbotron-bid-proposal .rate-row .btn-rate-row:hover {
   background: #2193c7;
 }
-.container .jumbotron-bid-proposal .price-row p {
+.detail-product-container .jumbotron-bid-proposal .price-row p {
   margin-bottom: .3rem;
 }
-.container .jumbotron-bid-proposal .price-row .btn-qstn-mark {
+.detail-product-container .jumbotron-bid-proposal .price-row .btn-qstn-mark {
   width: 0;
   height: 0;
   padding: 0;
   background: transparent;
   border: transparent;
 }
-.container .jumbotron-bid-proposal .price-row .btn-qstn-mark i {
+.detail-product-container .jumbotron-bid-proposal .price-row .btn-qstn-mark i {
   color: #34A8DD;
   font-size: 1rem;
 }
-.container .jumbotron-bid-proposal .price-row .right-side-price p {
+.detail-product-container .jumbotron-bid-proposal .price-row .right-side-price p {
   color: #000;
 }
-.container .jumbotron-bid-proposal .price-row .right-side-price p i {
+.detail-product-container .jumbotron-bid-proposal .price-row .right-side-price p i {
   font-style: normal;
   font-size: 1rem;
 }
-.container .jumbotron-bid-proposal p.note-p {
+.detail-product-container .jumbotron-bid-proposal p.note-p {
   margin-top: 1rem;
 }
-.container .jumbotron-bid-proposal .blue-text {
+.detail-product-container .jumbotron-bid-proposal .blue-text {
   color: #34A8DD;
   font-weight: normal;
 }
-.container .jumbotron-bid-proposal .btn-place-bid-row .place-bid-btn, .container .jumbotron-bid-proposal .btn-place-bid-row a {
+.detail-product-container .jumbotron-bid-proposal .btn-place-bid-row .place-bid-btn, .detail-product-container .jumbotron-bid-proposal .btn-place-bid-row a {
   font-size: 1.3rem;
 }
 
@@ -1385,6 +1392,112 @@ input[type=number].rate-row-number-week::-webkit-outer-spin-button {
   -moz-appearance: none;
   appearance: none;
   margin: 0;
+}
+
+ /*=======================================
+
+ *** CATEGORIES PAGE STYLES ***
+
+ =========================================*/
+.categories-outer-container {
+  padding-top: 3rem;
+}
+.categories-outer-container .location-row input[type='text'] {
+  padding: 6.2px;
+  font-size: 17px;
+  border: 0;
+  float: left;
+  width: 80%;
+  background: #f2f2f2;
+}
+.categories-outer-container .location-row ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #34A8DD !important;
+}
+.categories-outer-container .location-row :-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #34A8DD !important;
+  opacity: 1;
+}
+.categories-outer-container .location-row ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #34A8DD !important;
+  opacity: 1;
+}
+.categories-outer-container .location-row :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #34A8DD !important;
+}
+.categories-outer-container .location-row input:focus {
+  outline: 0;
+}
+.categories-outer-container .location-row .btn-location-search {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  line-height: 1;
+  font-size: 1.08rem;
+}
+.categories-outer-container .location-row .btn-location-search:hover {
+  background: #2193c7;
+}
+
+.categories-container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /*categories names*/
+  /*categories information*/
+}
+.categories-container .categories-btn {
+  background: transparent;
+  border: 0;
+  margin-bottom: 19px;
+  color: #6e6e6e;
+  font-size: 1.08rem;
+  font-size: 1.2rem;
+  width: 0;
+  height: 0;
+  /*padding-bottom: 9px;*/
+  transition: transform .2s;
+}
+.categories-container .categories-btn:hover, .categories-container .categories-btn:focus, .categories-container .categories-btn:active, .categories-container .categories-btn:visited {
+  background: transparent !important;
+  border-color: transparent !important;
+  color: #34A8DD !important;
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.categories-container .jumbotron {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  padding: 15px;
+  margin-bottom: 0;
+  border-left: 9px solid transparent;
+  border-bottom: 2px solid #dddddd;
+}
+.categories-container .jumbotron:hover, .categories-container .jumbotron:active, .categories-container .jumbotron:focus {
+  border-left: 9px solid #a1d7ef;
+}
+.categories-container .categories-info {
+  padding-left: 2rem;
+}
+.categories-container .categories-info h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #000;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

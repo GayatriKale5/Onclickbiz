@@ -37,14 +37,8 @@
 				<li class="nav-item  active">
 					<a class="nav-link" href="home.php">HOME</a>
 				</li>
-				<li class="nav-item dropdown"> 
-					<a class="nav-link dropdown-toggle onclick-dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						CATEGORIES
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">Lorem Ipsum</a>
-						<a class="dropdown-item" href="#">Lorem Ipsum</a>
-					</div>
+				<li class="nav-item ml-3">
+					<a class="nav-link" href="categories.php">CATEGORIES</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">LISTINGS</a>
@@ -58,9 +52,10 @@
 						<a class="dropdown-item" href="login.php">Login</a>
 						<a class="dropdown-item" href="post-free-job.php">Post Free Job</a>
 						<a class="dropdown-item" href="search-job.php">Search Job</a>
-						<a class="dropdown-item" href="edit-profile.php">Edit Profile</a>		
+						<a class="dropdown-item" href="profile.php">Profile</a>		
 						<a class="dropdown-item" href="product.php">Product</a>		
-						<a class="dropdown-item" href="detail-product.php">Detail Product</a>		
+						<a class="dropdown-item" href="detail-product.php">Detail Product</a>	
+						<a class="dropdown-item" href="categories.php">Categories</a>	
 					</div>
 				</li>
 				<li class="nav-item">
@@ -83,7 +78,7 @@
 					</div>
 				</li>
 
-				<a href="#" class="btn btn-primary btn-post-job">Post Job</a>
+				<a href="sign-up.php" class="btn btn-primary btn-post-job">Post Job</a>
 			</ul>
 		</div>
 	</nav>

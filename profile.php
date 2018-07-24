@@ -5,11 +5,11 @@
 	<div class="row h-100">
 		<div class="col-md-12 my-auto text-center">	
 			<h1>
-				Edit Profile
+				Profile
 			</h1>				
 		</div>
 		<div class="col-md-12 text-left folder-path">
-			<p>Home/<b claas="color">Edit Profile</b></p>			
+			<p>Home/<b claas="color">Profile</b></p>			
 		</div>
 	</div>
 </header>
@@ -19,7 +19,7 @@
 		<div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
 			<div class="card">
 				<div class="card-header text-center">
-					Edit Profile
+					Profile
 				</div>
 				<div class="card-body post-free-job-card-body">
 					<form method="post" action="#">

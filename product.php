@@ -98,11 +98,14 @@
     				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    				<a href="detail-product.php">
+    				<button type="button" class="btn btn-primary send-otp-btn btn-post-job product-bid-on-project-btn">Bid on This Project</button>
+    				</a>
   				</div>
 			</div>
 		</div>
 		<div class="col-12 col-md-4 pd-right-desc">
-			<div class="card">
+			<div class="card h-100">
   				<div class="card-body">
     				<h1>Short Info</h1>
 					<p class="pt-2"><a href="#"><i class="fas fa-file-signature"></i> &nbsp; More services</a></p>

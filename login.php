@@ -22,7 +22,7 @@
 					Login Now
 				</div>
 				<div class="card-body">
-					<form method="post" action="#">
+					<form method="post" action="profile.php">
 						<div class="form-group col-12 mb-3">
 							<i class="fa fa-user fa-forms-user"></i>
 							<input type="text" class="form-control" id="login-name" placeholder="Enter your name">					

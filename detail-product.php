@@ -4,7 +4,7 @@
 	<div class="overlay"></div>	
 </header>
 
-<div class="container">
+<div class="container detail-product-container">
 	<div class="row">
 		<div class="col-12 title">
 			<h1>Logo Designer</h1>
