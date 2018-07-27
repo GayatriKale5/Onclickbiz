@@ -1,10 +1,11 @@
-/*=======================================
+ /*=======================================
 
  *** CATEGORIES PAGE STYLES ***
 
  =========================================*/
 
  $border-color-categories: rgb(221,221,221);
+ $categories-link-color: rgb(110, 110, 110);
 
  .categories-outer-container {
  	padding-top: 3rem;
@@ -51,12 +52,11 @@
  		background: transparent; 		
  		border: 0;
  		margin-bottom: 19px; 		
- 		color: rgb(110, 110, 110);
+ 		color: $categories-link-color;
  		font-size: 1.08rem;
  		font-size: 1.2rem;
  		width: 0;
  		height: 0;
- 		/*padding-bottom: 9px;*/
  		transition: transform .2s;
 
  		&:hover,
@@ -66,7 +66,8 @@
  			background: transparent !important;
  			border-color: transparent !important;
  			color: $color-blue !important; 			
- 			@include transformScale(1.1); 			
+ 			@include transformScale(1.1); 
+ 			box-shadow: 0 0 0;			
  		}
  	}
 
@@ -87,12 +88,42 @@
  	/*categories information*/
  	& .categories-info {
  		padding-left: 2rem;
+ 		padding-bottom: 1.5rem;
 
  		& h1 {
  			padding-top: 2rem;
- 			padding-bottom: 2rem;
-	 		color: $color-black;
+ 			padding-bottom: 1rem;
+ 			color: $color-black;
  			font-size: 1.5rem;
  		}	
+ 	}
+
+
+ 	.inline-accordian-comp-cat {
+
+ 		.card {
+ 			border: 0;
+ 			margin-bottom: 9px;
+ 		}
+
+ 		.card-header {
+ 			border-bottom: 0;
+ 		}
+ 		
+ 		& .categories-btn {
+ 			&:hover,
+ 			&:focus, 
+ 			&:active,
+ 			&:visited {
+ 				@include transformScale(1); 
+ 			}
+ 		}
+
+ 		& .fas {
+ 			font-size: 23px;
+ 			color: $color-blue;
+ 			border-right: 2px solid #DAD8D9;
+ 			padding-right: 18px;
+ 		}
  	}
  }
