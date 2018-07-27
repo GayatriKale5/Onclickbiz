@@ -27,17 +27,22 @@
 							<label for="service-name" class="service-name-label mt-2">Please tell us service you'r looking for</label>
 							<i class="fas fa-search fa-post-free-job-search"></i>
 							<input type="text" class="form-control" id="post-free-job-name" placeholder="eg. Carpenter, Website Developer, Interior Designer">	
+						</div>					
+						<div class="form-group col-12 col-sm-8 mb-4">
+							<label for="budget" class="job-mobile-num-label mt-2 pl-3">What is your budget</label>
+							<div class="row budget-row">
+							<i class="fa fa-rupee-sign fa-job-rupee"></i>
+							<input type="number" class="form-control col-5 mr-1" id="post-free-job-mobile-number" placeholder="Min">
+
+							<i class="fa fa-rupee-sign fa-job-rupee"></i>
+							<input type="number" class="form-control col-5" id="post-free-job-mobile-number" placeholder="Max">
+							</div>
 						</div>
-						<div class="form-group col-12 col-sm-8 col-lg-6 mb-3">
-							<label for="budget" class="mt-2">What is your budget</label>
-							<select class="form-control" id="post-free-job-select-budget">
-								<option selected>₹5000 - ₹10000</option>
-								<option>₹10000 - ₹15000</option>
-								<option>₹15000 - ₹20000</option>
-								<option>₹20000 - ₹25000</option>
-								<option>₹25000 - ₹30000</option>
-							</select>
+						<div class="form-group form-check col-12 pl-5 forms-checkbox">
+							<input type="checkbox" class="form-check-input" id="checkbox-any-budget">
+							<label class="form-job-check-label" for="checkbox-any-budget">Any budget</label>
 						</div>
+
 						<div class="form-group col-12 col-sm-8 col-lg-7 mb-3">
 							<label for="budget" class="job-location-label mt-2">Location</label>
 							<i class="fa fa-map-marker-alt fa-job-location"></i>
@@ -48,7 +53,7 @@
 							<textarea class="form-control" id="job-post-address" rows="5" placeholder="Enter your address"></textarea>
 						</div>						
 						<div class="form-group col-12 col-sm-8 col-lg-7 mb-4">
-							<label for="budget" class="job-mobile-num-label mt-2">Mobile Number</label>
+							<label for="mobile number" class="job-mobile-num-label mt-2">Mobile Number</label>
 							<i class="fa fa-mobile-alt fa-job-mobile"></i>
 							<input type="number" class="form-control" id="post-free-job-mobile-number" placeholder="Enter your mobile number">
 						</div>

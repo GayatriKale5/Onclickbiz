@@ -692,6 +692,12 @@ a:hover {
   margin-top: 0.8rem;
   padding-bottom: 8px;
 }
+.forms-section-row .new-user-sign-up-link p {
+  font-size: 13px;
+}
+.forms-section-row .new-user-sign-up-link p a {
+  font-size: 15px;
+}
 
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -716,10 +722,11 @@ a:hover {
 }
 
 input[type='text']#login-name,
-input[type='number']#login-mobile-number,
+input[type='text']#login-password,
 input[type='number']#sign-up-mobile-number,
-input[type='email']#sign-up-email,
-input[type='password']#sign-up-password {
+input[type='email']#sign-up-email-mobile,
+input[type='password']#sign-up-password,
+input[type='password']#sign-up-confirm-password {
   padding-left: 39px;
   vertical-align: center;
   font-size: 14px;
@@ -781,9 +788,6 @@ input[type=number].otp-number::-webkit-outer-spin-button {
   top: 52px !important;
   font-size: 15px !important;
 }
-.post-free-job-card-body #post-free-job-select-budget {
-  font-size: 14px;
-}
 .post-free-job-card-body .post-free-job-btn {
   margin-top: 0 !important;
   font-size: 18px;
@@ -811,6 +815,15 @@ input[type=number].otp-number::-webkit-outer-spin-button {
   top: 6px !important;
   left: 19px !important;
   font-size: 9px !important;
+}
+.post-free-job-card-body .budget-row {
+  margin-left: -3px;
+}
+.post-free-job-card-body .fa-job-rupee {
+  z-index: 1;
+  left: 22px !important;
+  top: 13px !important;
+  font-size: 14px !important;
 }
 
 input[type='text']#post-free-job-name,

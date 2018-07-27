@@ -22,47 +22,21 @@
 					Sign Up
 				</div>
 				<div class="card-body">
-					<form method="post" action="profile.php">
+					<form method="post" action="otp.php">
 						<div class="form-group col-12 mb-3">
-							<i class="fa fa-envelope fa-forms-email"></i>
-							<input type="email" class="form-control" id="sign-up-email" aria-describedby="sign-up-email" placeholder="Enter your email">	
+							<i class="fa fa-user fa-forms-email-mobile"></i>
+							<input type="email" class="form-control" id="sign-up-email-mobile" aria-describedby="sign-up-email-mobile" placeholder="Enter your email / Enter your mobile number">	
 						</div>
 						<div class="form-group col-12 mb-3">
 							<i class="fa fa-lock fa-forms-lock"></i>
 							<input type="password" class="form-control" id="sign-up-password" placeholder="Enter your password">
-						</div>
-
-						<div class="row or-row pt-3">
-							<div class="col-4 col-sm-5 pl-4 pr-0">
-								<hr>
-							</div>	
-							<div class="col-4 col-sm-2 text-center pt-1">
-								<p>OR</p>
-							</div>	
-							<div class="col-4 col-sm-5 pr-4 pl-0">
-								<hr>
-							</div>					
-						</div>
+						</div>		
 
 						<div class="form-group col-12 mb-3">
-							<i class="fa fa-mobile-alt fa-forms-mobile"></i>
-							<input type="number" class="form-control" id="sign-up-mobile-number" placeholder="Enter your mobile number">
-						</div>
-						<div class="form-group col-12 mb-3 text-center otp-form-group">
-							<div class="row pt-3">
-								<div class="col-12 col-md-5 text-md-right">
-									<label for="otp-num" class="otp-num-label">Enter OTP</label>
-								</div>
-								<div class="col-12 col-md-7">
-									<div class="row otp-input-row">
-										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number1" placeholder="0">
-										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number2" placeholder="0">
-										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number3" placeholder="0">
-										<input type="number" class="form-control col-2 col-md-2 otp-number mr-1" id="otp-number4" placeholder="0">
-									</div>
-								</div>								
-							</div>
-						</div>
+							<i class="fa fa-lock fa-forms-lock"></i>
+							<input type="password" class="form-control" id="sign-up-confirm-password" placeholder="Confirm your password">
+						</div>						
+
 						<div class="row checkbox-row">
 							<div class="form-group form-check col-12 forms-checkbox text-center">
 								<input type="checkbox" class="form-check-input" id="checkbox-sign-up">
@@ -73,6 +47,18 @@
 							<button type="submit" class="btn btn-primary send-otp-btn btn-post-job">Submit</button>
 						</div>						
 					</form>
+
+					<div class="row or-row pt-3 new-user-sign-up-link">
+						<div class="col-4 col-sm-3 pr-0">
+							<hr>
+						</div>	
+						<div class="col-4 col-sm-6 text-center pt-1">
+							<p>Already have an account? <a href="login.php">Login</a></p>
+						</div>	
+						<div class="col-4 col-sm-3 pl-0">
+							<hr>
+						</div>					
+					</div>
 
 				</div>
 			</div>

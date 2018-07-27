@@ -25,11 +25,11 @@
 					<form method="post" action="profile.php">
 						<div class="form-group col-12 mb-3">
 							<i class="fa fa-user fa-forms-user"></i>
-							<input type="text" class="form-control" id="login-name" placeholder="Enter your name">					
+							<input type="text" class="form-control" id="login-name" placeholder="Enter your email / Enter your mobile number">					
 						</div>
 						<div class="form-group col-12 mb-3">
-							<i class="fa fa-mobile-alt fa-forms-mobile"></i>
-							<input type="number" class="form-control" id="login-mobile-number" placeholder="Enter your mobile number">
+							<i class="fa fa-lock fa-forms-lock"></i>
+							<input type="text" class="form-control" id="login-password" placeholder="Enter your password">
 						</div>
 						<div class="row checkbox-row">
 							<div class="form-group form-check col-12 col-md-6 pl-5 forms-checkbox text-center">
@@ -40,10 +40,22 @@
 								<a href="#">Forgot Password?</a>
 							</div>
 						</div>
-						<div class="col-12 send-otp-colm text-center">
-							<button type="submit" class="btn btn-primary send-otp-btn btn-post-job">Send OTP</button>
+						<div class="col-12 send-otp-colm text-center pb-1">
+							<button type="submit" class="btn btn-primary send-otp-btn btn-post-job">Login</button>
 						</div>						
 					</form>
+
+					<div class="row or-row pt-3 new-user-sign-up-link">
+						<div class="col-4 col-sm-4 pr-0">
+							<hr>
+						</div>	
+						<div class="col-4 col-sm-4 text-center pt-1">
+							<p>New to Onclickbiz? <a href="sign-up.php">Create account</a></p>
+						</div>	
+						<div class="col-4 col-sm-4 pl-0">
+							<hr>
+						</div>					
+					</div>
 
 				</div>
 			</div>
