@@ -1519,5 +1519,19 @@ input[type=number].rate-row-number-week::-webkit-outer-spin-button {
   border-right: 2px solid #DAD8D9;
   padding-right: 18px;
 }
+.categories-container .inline-accordian-comp-cat .fa-mobile-alt {
+  padding-right: 24px;
+  margin-left: 4px;
+}
+.categories-container .inline-accordian-comp-cat .fa-toolbox {
+  padding-right: 19px;
+  margin-left: 1px;
+}
+
+  /*=======================================
+
+ *** MY PROJECT VENDOR PAGE STYLES ***
+
+ =========================================*/
 
 /*# sourceMappingURL=style.css.map */
