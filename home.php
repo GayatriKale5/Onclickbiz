@@ -27,7 +27,7 @@
 <!-- section one icons -->
 <div class="container-fluid section-one">
 	<div class="row section-one-row">
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-taxi"></i>				
@@ -35,7 +35,7 @@
 				<p>Cabs</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-tv"></i>				
@@ -43,7 +43,7 @@
 				<p>Electronics</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="far fa-building"></i>
@@ -51,7 +51,7 @@
 				<p>Electronics</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-fighter-jet"></i>				
@@ -59,7 +59,7 @@
 				<p>Flight</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-briefcase"></i>				
@@ -67,7 +67,7 @@
 				<p>Jobs</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-subway"></i>				
@@ -75,7 +75,7 @@
 				<p>Train</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-umbrella"></i>				
@@ -83,7 +83,7 @@
 				<p>Insurance</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-hotel"></i>				
@@ -91,7 +91,7 @@
 				<p>Hotel</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-graduation-cap"></i>				
@@ -99,7 +99,7 @@
 				<p>Education</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-dumbbell"></i>				
@@ -107,7 +107,7 @@
 				<p>Fitness</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-door-open"></i>				
@@ -115,7 +115,7 @@
 				<p>Real Estate</p>
 			</a>
 		</div>
-		<div class="col-12 col-sm-4 col-md-3 col-lg-2 section-one-colm">
+		<div class="col-6 col-sm-4 col-md-3 col-lg-2 section-one-colm">
 			<a href="#">
 				<div class="fa-icons">
 					<i class="fas fa-briefcase-medical"></i>				
@@ -259,114 +259,349 @@
 </div>
 
 <!-- featured services -->
-<div class="container section-two pd-section-two-container">
-	<div class="row section-two-title text-center">
-		<h1>Featured Services</h1>
-	</div>
-	<div class="row section-two-row">
-		<div class="col-12 col-md-6 col-lg-4 section-two-colm wow pulse">
-			<div class="card">
-				<img class="card-img-top" src="img/home/card-world.jpg" alt="services">
-				<div class="card-body">
-					<div class="row">
-						<div class="col-12 col-md-8">
-							<a href="#"><h5 class="card-title">Travel World</h5></a>
-							<div class="row card-text-row">
-								<div class="col-12 mb-1">
-									<a href="#">								
-										Lorem ipsum dolor sit
-									</a>
-								</div>
-								<div class="col-12 pt-1 fa-star-icons pb-2">
-								<a href="#">
-									<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
-									&nbsp; 1 Review</p></a>			
-								</div>
-							</div>	
+
+<div id="featured-services-slider" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	   <div class="container section-two pd-section-two-container">
+		<div class="row section-two-title text-center">
+			<h1>Featured Services</h1>
+		</div>
+		<div class="row section-two-row">
+			<div class="col-12 col-md-6 col-lg-4 section-two-colm">
+				<div class="card">
+					<img class="card-img-top" src="img/home/card-world.jpg" alt="services">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-12 col-md-8">
+								<a href="#"><h5 class="card-title">Travel World</h5></a>
+								<div class="row card-text-row">
+									<div class="col-12 mb-1">
+										<a href="#">								
+											Lorem ipsum dolor sit
+										</a>
+									</div>
+									<div class="col-12 pt-1 fa-star-icons pb-2">
+									<a href="#">
+										<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+										&nbsp; 1 Review</p></a>			
+									</div>
+								</div>	
+							</div>
+							<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+								<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+							</div>
 						</div>
-						<div class="col-12 col-md-4 my-auto pl-0 pb-2">
-							<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+						<div class="row card-text-row">
+							<div class="col-12 fs-location-text">
+								<hr class="mt-0 mb-3">
+								<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+							</div>
 						</div>
 					</div>
-					<div class="row card-text-row">
-						<div class="col-12 fs-location-text">
-							<hr class="mt-0 mb-3">
-							<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+				</div>		
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 section-two-colm">
+				<div class="card">
+					<img class="card-img-top" src="img/home/card-clinic.jpg" alt="services">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-12 col-md-8">
+								<a href="#"><h5 class="card-title">Royal Clinic</h5></a>
+								<div class="row card-text-row">
+									<div class="col-12 mb-1">
+										<a href="#">								
+											Lorem ipsum dolor sit
+										</a>
+									</div>
+									<div class="col-12 pt-1 fa-star-icons pb-2">
+									<a href="#">
+										<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+										&nbsp; 1 Review</p></a>			
+									</div>
+								</div>	
+							</div>
+							<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+								<h3 class="price">300 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+							</div>
+						</div>
+						<div class="row card-text-row">
+							<div class="col-12 fs-location-text">
+								<hr class="mt-0 mb-3">
+								<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+							</div>
 						</div>
 					</div>
-				</div>
+				</div>		
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 section-two-colm">
+				<div class="card">
+					<img class="card-img-top" 
+					     src="img/home/card-gym.jpg" alt="services">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-12 col-md-8">
+								<a href="#"><h5 class="card-title">Golds Gym</h5></a>
+								<div class="row card-text-row">
+									<div class="col-12 mb-1">
+										<a href="#">								
+											Lorem ipsum dolor sit
+										</a>
+									</div>
+									<div class="col-12 pt-1 fa-star-icons pb-2">
+									<a href="#">
+										<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+										&nbsp; 1 Review</p></a>			
+									</div>
+								</div>	
+							</div>
+							<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+								<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+							</div>
+						</div>
+						<div class="row card-text-row">
+							<div class="col-12 fs-location-text">
+								<hr class="mt-0 mb-3">
+								<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+							</div>
+						</div>
+					</div>
+				</div>		
 			</div>		
 		</div>
+	 </div>
+    </div>
+    <div class="carousel-item">
+	   <div class="container section-two pd-section-two-container">
+		<div class="row section-two-title text-center">
+			<h1>Featured Services</h1>
+		</div>
+		<div class="row section-two-row">
+			<div class="col-12 col-md-6 col-lg-4 section-two-colm">
+				<div class="card">
+					<img class="card-img-top" src="img/home/card-world.jpg" alt="services">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-12 col-md-8">
+								<a href="#"><h5 class="card-title">Travel World</h5></a>
+								<div class="row card-text-row">
+									<div class="col-12 mb-1">
+										<a href="#">								
+											Lorem ipsum dolor sit
+										</a>
+									</div>
+									<div class="col-12 pt-1 fa-star-icons pb-2">
+									<a href="#">
+										<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+										&nbsp; 1 Review</p></a>			
+									</div>
+								</div>	
+							</div>
+							<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+								<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+							</div>
+						</div>
+						<div class="row card-text-row">
+							<div class="col-12 fs-location-text">
+								<hr class="mt-0 mb-3">
+								<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</div>
 
-		<div class="col-12 col-md-6 col-lg-4 section-two-colm wow pulse">
-			<div class="card">
-				<img class="card-img-top" src="img/home/card-clinic.jpg" alt="services">
-				<div class="card-body">
-					<div class="row">
-						<div class="col-12 col-md-8">
-							<a href="#"><h5 class="card-title">Royal Clinic</h5></a>
-							<div class="row card-text-row">
-								<div class="col-12 mb-1">
-									<a href="#">								
-										Lorem ipsum dolor sit
-									</a>
-								</div>
-								<div class="col-12 pt-1 fa-star-icons pb-2">
-								<a href="#">
-									<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
-									&nbsp; 1 Review</p></a>			
-								</div>
-							</div>	
+			<div class="col-12 col-md-6 col-lg-4 section-two-colm">
+				<div class="card">
+					<img class="card-img-top" src="img/home/card-clinic.jpg" alt="services">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-12 col-md-8">
+								<a href="#"><h5 class="card-title">Royal Clinic</h5></a>
+								<div class="row card-text-row">
+									<div class="col-12 mb-1">
+										<a href="#">								
+											Lorem ipsum dolor sit
+										</a>
+									</div>
+									<div class="col-12 pt-1 fa-star-icons pb-2">
+									<a href="#">
+										<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+										&nbsp; 1 Review</p></a>			
+									</div>
+								</div>	
+							</div>
+							<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+								<h3 class="price">300 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+							</div>
 						</div>
-						<div class="col-12 col-md-4 my-auto pl-0 pb-2">
-							<h3 class="price">300 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+						<div class="row card-text-row">
+							<div class="col-12 fs-location-text">
+								<hr class="mt-0 mb-3">
+								<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+							</div>
 						</div>
 					</div>
-					<div class="row card-text-row">
-						<div class="col-12 fs-location-text">
-							<hr class="mt-0 mb-3">
-							<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+				</div>		
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 section-two-colm">
+				<div class="card">
+					<img class="card-img-top" 
+					     src="img/home/card-gym.jpg" alt="services">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-12 col-md-8">
+								<a href="#"><h5 class="card-title">Golds Gym</h5></a>
+								<div class="row card-text-row">
+									<div class="col-12 mb-1">
+										<a href="#">								
+											Lorem ipsum dolor sit
+										</a>
+									</div>
+									<div class="col-12 pt-1 fa-star-icons pb-2">
+									<a href="#">
+										<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+										&nbsp; 1 Review</p></a>			
+									</div>
+								</div>	
+							</div>
+							<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+								<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+							</div>
+						</div>
+						<div class="row card-text-row">
+							<div class="col-12 fs-location-text">
+								<hr class="mt-0 mb-3">
+								<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+							</div>
 						</div>
 					</div>
-				</div>
+				</div>		
 			</div>		
 		</div>
+	  </div>
+    </div>
+    <div class="carousel-item">
+     <div class="container section-two pd-section-two-container">
+		<div class="row section-two-title text-center">
+			<h1>Featured Services</h1>
+		</div>
+		<div class="row section-two-row">
+			<div class="col-12 col-md-6 col-lg-4 section-two-colm">
+				<div class="card">
+					<img class="card-img-top" src="img/home/card-world.jpg" alt="services">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-12 col-md-8">
+								<a href="#"><h5 class="card-title">Travel World</h5></a>
+								<div class="row card-text-row">
+									<div class="col-12 mb-1">
+										<a href="#">								
+											Lorem ipsum dolor sit
+										</a>
+									</div>
+									<div class="col-12 pt-1 fa-star-icons pb-2">
+									<a href="#">
+										<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+										&nbsp; 1 Review</p></a>			
+									</div>
+								</div>	
+							</div>
+							<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+								<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+							</div>
+						</div>
+						<div class="row card-text-row">
+							<div class="col-12 fs-location-text">
+								<hr class="mt-0 mb-3">
+								<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</div>
 
-		<div class="col-12 col-md-6 col-lg-4 section-two-colm wow pulse">
-			<div class="card">
-				<img class="card-img-top" 
-				     src="img/home/card-gym.jpg" alt="services">
-				<div class="card-body">
-					<div class="row">
-						<div class="col-12 col-md-8">
-							<a href="#"><h5 class="card-title">Golds Gym</h5></a>
-							<div class="row card-text-row">
-								<div class="col-12 mb-1">
-									<a href="#">								
-										Lorem ipsum dolor sit
-									</a>
-								</div>
-								<div class="col-12 pt-1 fa-star-icons pb-2">
-								<a href="#">
-									<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
-									&nbsp; 1 Review</p></a>			
-								</div>
-							</div>	
+			<div class="col-12 col-md-6 col-lg-4 section-two-colm">
+				<div class="card">
+					<img class="card-img-top" src="img/home/card-clinic.jpg" alt="services">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-12 col-md-8">
+								<a href="#"><h5 class="card-title">Royal Clinic</h5></a>
+								<div class="row card-text-row">
+									<div class="col-12 mb-1">
+										<a href="#">								
+											Lorem ipsum dolor sit
+										</a>
+									</div>
+									<div class="col-12 pt-1 fa-star-icons pb-2">
+									<a href="#">
+										<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+										&nbsp; 1 Review</p></a>			
+									</div>
+								</div>	
+							</div>
+							<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+								<h3 class="price">300 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+							</div>
 						</div>
-						<div class="col-12 col-md-4 my-auto pl-0 pb-2">
-							<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+						<div class="row card-text-row">
+							<div class="col-12 fs-location-text">
+								<hr class="mt-0 mb-3">
+								<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+							</div>
 						</div>
 					</div>
-					<div class="row card-text-row">
-						<div class="col-12 fs-location-text">
-							<hr class="mt-0 mb-3">
-							<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+				</div>		
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 section-two-colm">
+				<div class="card">
+					<img class="card-img-top" 
+					     src="img/home/card-gym.jpg" alt="services">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-12 col-md-8">
+								<a href="#"><h5 class="card-title">Golds Gym</h5></a>
+								<div class="row card-text-row">
+									<div class="col-12 mb-1">
+										<a href="#">								
+											Lorem ipsum dolor sit
+										</a>
+									</div>
+									<div class="col-12 pt-1 fa-star-icons pb-2">
+									<a href="#">
+										<p><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>   
+										&nbsp; 1 Review</p></a>			
+									</div>
+								</div>	
+							</div>
+							<div class="col-12 col-md-4 my-auto pl-0 pb-2">
+								<h3 class="price">3000 <i class="fas fa-rupee-sign fa-price-rupee"></i></h3>
+							</div>
+						</div>
+						<div class="row card-text-row">
+							<div class="col-12 fs-location-text">
+								<hr class="mt-0 mb-3">
+								<a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Nagar, Pune</a>
+							</div>
 						</div>
 					</div>
-				</div>
+				</div>		
 			</div>		
-		</div>		
-	</div>
+		</div>
+     </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#featured-services-slider" role="button" data-slide="prev">
+    <i class="fas fa-angle-left fa-arrow-left-slider"></i>
+  </a>
+  <a class="carousel-control-next" href="#featured-services-slider" role="button" data-slide="next">
+    <i class="fas fa-angle-right fa-arrow-right-slider"></i>
+  </a>
 </div>
 
 <!-- section three black bg row -->
@@ -408,32 +643,32 @@
 						<h5 class="card-title">Best Services</h5>
 						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, eiusmod
 							tempor incididunt ut labore.</p>
-						</div>
 					</div>
-				</div>			
-				<div class="col-md-4 wow zoomIn mb-3">
-					<div class="card">
-						<div class="card-body text-center">
-							<i class="fas fa-paint-brush"></i>
-							<h5 class="card-title">Best Services</h5>
-							<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipisicing elit, eiusmod
-								tempor incididunt ut labore.</p>
-							</div>
-						</div>
+				</div>
+			</div>			
+			<div class="col-md-4 wow zoomIn mb-3">
+				<div class="card">
+					<div class="card-body text-center">
+						<i class="fas fa-paint-brush"></i>
+						<h5 class="card-title">Best Services</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipisicing elit, eiusmod
+							tempor incididunt ut labore.</p>
 					</div>
-					<div class="col-md-4 wow zoomIn mb-3">
-						<div class="card">
-							<div class="card-body text-center">
-								<i class="fas fa-headset"></i>
-								<h5 class="card-title">Best Services</h5>
-								<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipisicing elit, eiusmod
-									tempor incididunt ut labore.</p>
-								</div>
-							</div>
-						</div>			
-					</div>			
 				</div>
 			</div>
+			<div class="col-md-4 wow zoomIn mb-3">
+				<div class="card">
+					<div class="card-body text-center">
+						<i class="fas fa-headset"></i>
+						<h5 class="card-title">Best Services</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet,consectetur adipisicing elit, eiusmod
+							tempor incididunt ut labore.</p>
+					</div>
+				</div>
+			</div>			
+		</div>			
+	</div>
+</div>
 
 			<!-- section five subscribe -->
 			<div class="containe-fluid section-five">

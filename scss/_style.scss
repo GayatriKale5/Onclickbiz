@@ -25,7 +25,7 @@
  }
 
  .onclick-navbar-toggler {
- 	background-color: $color-white;
+ 	background-color: $color-white;    
  }
 
  .onclick-navbar {
@@ -37,11 +37,142 @@
  	@include flex(); 	
  	justify-content: center;
  	align-items: center;
+    margin-top: -10px;
 
+    @media(max-width: 880px) {
+         margin-left: -20px;
+    }
+ 	
+    @media(max-width: 848px) {
+        margin-left: -35px;
+ 	}
+     
+    @media(max-width: 767px) {
+        & {
+            justify-content: space-between;
+        } 
+        
+        & .navbar-brand {
+            margin-left: 51px;
+        }
+    }
+ 	
  	/*distance between logo and links*/
  	& .onclick-navbar-collapse {
  		left: 45px; 
+
+ 		@media(max-width: 1179px) {
+ 			left: 20px;	
+ 		}
+
+ 		@media(max-width: 1060px) {
+ 			left: 0;	
+ 		}
+    
+        @media(max-width: 895px) { 
+            & {
+                left: -28px;
+            }
+        }
+        
+ 		@media(max-width: 767px) {
+ 			& {
+ 				background: black;
+ 				opacity: 0.9;                 
+ 			}
+ 		}
+
+ 		& .onclick-navbar-nav {
+ 			display: flex !important;
+ 			justify-content: center;
+ 			align-items: center;
+ 		}
  	}
+
+ 	/*header links style*/
+ 	& .onclick-navbar-nav .nav-item {
+
+ 		&.nav-link {
+ 			color: $color-white;
+ 		}
+
+ 		& .nav-link {
+ 			font-size: 14px;
+ 			font-weight: 400; 
+ 			color: $color-white !important;   
+ 			text-align: center;
+ 			padding-left: 20px !important;
+ 			padding-right: 20px !important;
+ 			letter-spacing: 1px;
+ 			text-transform: uppercase;    
+ 			@include transitionEaseInOut(.3s);
+
+ 			&:hover,  
+ 			&:focus {
+ 				color: $color-blue !important;
+ 			}
+
+ 			@media(max-width: 1179px) {
+ 				& {
+ 					padding-left: 14px !important;
+ 					padding-right: 13px !important;
+ 				}
+ 			}
+ 			
+ 			@media(max-width: 1060px) {
+ 				& {
+ 					padding-left: 11px !important;
+ 					padding-right: 9px !important;
+ 				}
+ 			}
+            
+            @media(max-width: 976px) {
+                &.sign-up {
+                    width: 90px;
+                }
+            }
+            
+            @media(max-width: 880px) {
+                & {
+                    padding-left: 8px !important;
+                    padding-right: 7px !important;
+                }
+                
+                &.sign-up {
+                    width: 80px;
+                }
+            }
+ 		}
+
+ 		&.active {
+ 			background-color: $color-blue;
+ 			margin-top: 2px;
+ 			height: 37px;
+ 			@include border-radius(3px);
+ 			line-height: 20px; 			
+
+ 			& a:hover,
+ 			& a:active,
+ 			& a:focus  {
+ 				color: $color-white !important;
+ 			}
+
+ 			@media(max-width: 767px) {
+ 				margin-bottom: 7px;
+ 				margin-top: 7px;
+ 			}
+ 		}
+
+ 		& p.slash {
+ 			padding-top: 17px;
+ 			color: white;
+
+ 			@media(max-width: 767px) {
+ 				display: none;
+ 			}
+ 		}
+ 	}
+
 
  	/*styles for dropdown*/
  	& .dropdown:hover .dropdown-menu {
@@ -54,18 +185,18 @@
  		margin-bottom: 2px;
  		font-size: 14px !important;
  		color: $color-grey;
- 	}
-
- 	& .dropdown .dropdown-item:focus, 
- 	& .dropdown .dropdown-item:hover, 
- 	& .dropdown .dropdown-item.active {
- 		color: $color-white !important;
- 		background-color: $color-blue;
- 		outline: 0;
- 		margin-bottom: 2px;
- 		@include border-radius(3px);
- 		padding-top: 6px;
- 		padding-bottom: 6px;
+ 		
+ 		&:focus,
+ 		&:hover,
+ 		&:active {
+ 			color: $color-white !important;
+ 			background-color: $color-blue;
+ 			outline: 0;
+ 			margin-bottom: 2px;
+ 			@include border-radius(3px);
+ 			padding-top: 6px;
+ 			padding-bottom: 6px;
+ 		}
  	}
 
  	& .dropdown .dropdown-menu {
@@ -100,52 +231,6 @@
  		display: none;
  	}
 
-
- 	/*header links style*/
- 	& .onclick-navbar-nav .nav-item {
-
- 		&.nav-link {
- 			color: $color-white;
- 		}
-
- 		& .nav-link {
- 			font-size: 14px;
- 			font-weight: 400; 
- 			color: $color-white !important;   
- 			text-align: center;
- 			padding-left: 20px !important;
- 			padding-right: 20px !important;
- 			letter-spacing: 1px;
- 			text-transform: uppercase;    
- 			@include transitionEaseInOut(.3s);
- 			padding-bottom: 20px !important;
- 		}
-
- 		& .nav-link:hover,  
- 		& .nav-link:focus {
- 			color: $color-blue !important;
- 		}
-
- 		&.active {
- 			background-color: $color-blue;
- 			margin-top: 2px;
- 			height: 37px;
- 			@include border-radius(3px);
- 			line-height: 20px;
-
- 			& a:hover,
- 			& a:active,
- 			& a:focus  {
- 				color: $color-white !important;
- 			}
- 		}
-
- 		& p.slash {
- 			padding-top: 8px;
- 			color: white;
- 		}
- 	}
-
  }
 
  /*post job button*/
@@ -164,7 +249,7 @@
  	text-align: center;
  	font-size: $header-btn-size;
  	@include border-radius(3px);
- 	box-shadow: 0 0 0 !important;	
+ 	box-shadow: 0 0 0 !important;
 
  	&:hover, &:focus, &:active {
  		background: darken($color-blue, 7%)!important;
@@ -178,6 +263,20 @@
  	margin-top: 2px;
  	line-height: 20px;
  	font-size: 0.97rem !important;
+
+     @media(max-width: 880px) {
+         & {
+             width: 82px;
+             padding-left: 9px;
+         }
+     }
+ 	@media(max-width: 767px) {
+        & {
+            margin-top: 5px;
+ 		    margin-bottom: 5px;
+        }
+ 	}
+     
  }
 
 
@@ -649,6 +748,12 @@
 
  	& h1 {
  		padding-top: 6rem;
+        
+        @media(max-width: 768px){
+            & {
+                font-size: 43px;
+            }
+        }
  	}
 
  	& .folder-path {
@@ -1310,6 +1415,20 @@
  }
 
 
+ #featured-services-slider {
+ 	& .fa-arrow-left-slider,
+ 	& .fa-arrow-right-slider {
+ 		color: $color-black;
+ 		font-size: 35px;
+ 		margin-top: 89px;
+ 		margin-left: 21px;
+ 	}
+
+ 	& .fa-arrow-left-slider {
+ 		margin-right: 39px;
+ 	}
+ }
+
  /*=======================================
 
  *** DETAIL PRODUCT PAGE STYLES ***
@@ -1698,12 +1817,12 @@
 
  		& .fa-mobile-alt {
  			padding-right: 24px;
-    		margin-left: 4px;
+ 			margin-left: 4px;
  		}
 
  		& .fa-toolbox {
  			padding-right: 19px;
-    		margin-left: 1px;
+ 			margin-left: 1px;
  		}
  	}
  }

@@ -19,11 +19,11 @@
 </head> 
 
 <body>
-
-	<nav class="navbar navbar-expand-lg navbar-light onclick-navbar">		
+   
+    <nav class="navbar navbar-expand-md navbar-light onclick-navbar">			
 		
 		<div id="onclick-logo col-md-1 text-center">
-			<a href="index.php" class="navbar-brand">
+            <a href="index.php" class="navbar-brand">
 				<img src="img/header/onclickbiz-logo.png" class="img-fluid home-header-logo">
 			</a>
 		</div>		
@@ -34,7 +34,7 @@
 		
 		<div class="collapse navbar-collapse onclick-navbar-collapse col-md-9 col-md-offset-2" id="navbarNavDropdown">
 			<ul class="navbar-nav onclick-navbar-nav">
-				<li class="nav-item  active ml-1 mr-3">
+				<li class="nav-item  active ml-1 mr-1">
 					<a class="nav-link" href="home.php">HOME</a>
 				</li>
 				<li class="nav-item">
@@ -52,7 +52,8 @@
 						<a class="dropdown-item" href="profile.php">Profile</a>		
 						<a class="dropdown-item" href="product.php">Product</a>		
 						<a class="dropdown-item" href="detail-product.php">Detail Product</a>	
-						<a class="dropdown-item" href="categories.php">Categories</a>	
+						<a class="dropdown-item" href="categories.php">Categories</a>
+						<a class="dropdown-item" href="#">My Project Vendor</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -62,10 +63,10 @@
 					<a class="nav-link" href="#">CONTACT</a>
 				</li>
 
-				<a href="sign-up.php" class="btn btn-primary btn-post-job btn-post-job-header ml-5 mr-2">Post Job</a>
+				<a href="sign-up.php" class="btn btn-primary btn-post-job btn-post-job-header ml-4 mr-1">Post Job</a>
 
 				<li class="nav-item">
-					<a href="sign-up.php" class="nav-link">Sign Up</a>
+					<a href="sign-up.php" class="nav-link sign-up">Sign Up</a>
 				</li>
 				<li class="nav-item">
 					<p class="slash">/</p>
@@ -73,7 +74,6 @@
 				<li class="nav-item">
 					<a href="login.php" class="nav-link">Login</a>
 				</li>
-
 			</ul>
 		</div>
 	</nav>
