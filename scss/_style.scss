@@ -78,14 +78,20 @@
 @media(max-width: 767px) {
   & {
    background: black;
-   opacity: 0.96;                 
- }
+   opacity: 0.96; 
+   left: 35px;
+   top: -1px;             
+ } 
 }
 
 & .onclick-navbar-nav {
   display: flex !important;
   justify-content: center;
   align-items: center;
+
+  @media(max-width: 310px) {
+    margin-left: -45px;
+  }
 }
 }
 
@@ -210,7 +216,14 @@
  @include animationFadeIn(0.4s);
  background: $color-white;
  text-align: left;
- margin-top: -1px;
+ margin-top: 2px;
+
+ @media(max-width: 990px) {
+    & {
+      margin-left: -16px;
+    }
+ }
+
 }
 
 /*display triangle in dropdown block*/

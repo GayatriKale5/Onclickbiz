@@ -91,12 +91,19 @@ html, body {
   .onclick-navbar .onclick-navbar-collapse {
     background: black;
     opacity: 0.96;
+    left: 35px;
+    top: -1px;
   }
 }
 .onclick-navbar .onclick-navbar-collapse .onclick-navbar-nav {
   display: flex !important;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 310px) {
+  .onclick-navbar .onclick-navbar-collapse .onclick-navbar-nav {
+    margin-left: -45px;
+  }
 }
 .onclick-navbar .onclick-navbar-nav .nav-item.nav-link {
   color: #fff;
@@ -209,7 +216,12 @@ html, body {
   -ms-animation: fadeIn 0.4s;
   background: #fff;
   text-align: left;
-  margin-top: -1px;
+  margin-top: 2px;
+}
+@media (max-width: 990px) {
+  .onclick-navbar .dropdown:hover .dropdown-menu {
+    margin-left: -16px;
+  }
 }
 .onclick-navbar .dropdown-menu:before {
   width: 0;
