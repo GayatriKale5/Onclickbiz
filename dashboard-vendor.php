@@ -137,7 +137,7 @@
                   Project Completed
                   <tr class="text-center">                    
                     <td scope="col">Vendor</td>
-                    <td scope="col">Client</td>
+                    <td scope="col" class="pl-5">Client</td>
                     <td scope="col">Onclick</td>
                   </tr>
                 </td>                  
