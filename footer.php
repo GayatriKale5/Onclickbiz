@@ -79,7 +79,7 @@
 	<script>
 		new WOW().init();
 		$("[data-toggle=popover]").popover();
-	</script>
+    </script>
 
 </body>
 </html>

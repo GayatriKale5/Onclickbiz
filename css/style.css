@@ -90,7 +90,7 @@ html, body {
 @media (max-width: 767px) {
   .onclick-navbar .onclick-navbar-collapse {
     background: black;
-    opacity: 0.9;
+    opacity: 0.96;
   }
 }
 .onclick-navbar .onclick-navbar-collapse .onclick-navbar-nav {
@@ -1636,10 +1636,160 @@ input[type=number].rate-row-number-week::-webkit-outer-spin-button {
   margin-left: 1px;
 }
 
-  /*=======================================
+/*===========================================
 
- *** MY PROJECT VENDOR PAGE STYLES ***
+ *** USER AND VENDOR DASHBOARD STYLES ***
 
- =========================================*/
+ =============================================*/
+.sidebar-dashboard {
+  background: rgba(10, 6, 23, 0.8) !important;
+}
+.sidebar-dashboard .sidebar-sticky {
+  padding-top: 1.5rem;
+  height: 90vh;
+}
+.sidebar-dashboard a {
+  color: #C5C9CA !important;
+  border-bottom: 2px solid #959595;
+  font-size: 1.1rem;
+}
+.sidebar-dashboard a:hover, .sidebar-dashboard a.active {
+  color: #fff !important;
+  color: #fff !important;
+}
+.sidebar-dashboard a h3 {
+  font-size: 1.6rem;
+}
+.sidebar-dashboard a h3 i {
+  font-size: 1.5rem;
+}
+
+.dashboard-container .menu-row {
+  margin: 45px 33px 20px 33px;
+}
+.dashboard-container .dashboard-page-menu {
+  padding: 33px 13px 13px 13px;
+  font-size: 1.6rem;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 31px;
+  background: #34A8DD;
+}
+.dashboard-container .dashboard-page-menu a {
+  color: #fff;
+}
+.dashboard-container .dashboard-page-menu a:hover, .dashboard-container .dashboard-page-menu a:active {
+  color: #fff;
+}
+.dashboard-container .bid-work-row h3 {
+  color: #383838;
+}
+.dashboard-container .bid-work-row thead {
+  background: #34A8DD;
+  color: #FEFEFE;
+}
+.dashboard-container .bid-work-row thead td {
+  vertical-align: middle;
+}
+.dashboard-container .bid-work-row tbody {
+  background-color: #EBEBEB;
+  color: #525252;
+}
+.dashboard-container .bid-work-row tbody td {
+  font-size: 0.9rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
+.dashboard-container .bid-work-row tbody td i {
+  font-style: normal;
+  font-size: 0.8rem;
+  padding-left: 2px;
+}
+.dashboard-container .bid-work-row tbody .project-dashboard-btn {
+  height: 33px;
+  width: 109px;
+  margin-top: 0;
+  line-height: 19px;
+}
+
+/* The label-row */
+.label-row {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-left: 30px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Hide the browser's default checkbox */
+  /* Show the custom-checkbox when checked */
+  /* Style the custom-checkbox/indicator */
+}
+.label-row input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.label-row input:checked ~ .custom-checkbox:after, .label-row input:checked ~ .custom-checkbox-cross:after {
+  display: block;
+}
+.label-row .custom-checkbox:after {
+  left: 9px;
+  top: -6px;
+  width: 10px;
+  height: 21px;
+  border: solid #8EC83E;
+  border-width: 0 4px 4px 0;
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.label-row .custom-checkbox-cross:after {
+  left: 3.5px;
+  top: -6px;
+  position: absolute;
+  color: #F05A5C;
+  font-size: 1.3rem;
+  content: "X";
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Create a custom checkbox */
+.custom-checkbox,
+.custom-checkbox-cross {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 19px;
+  background-color: #fff;
+  /* Create the custom-checkbox/indicator (hidden when not checked) */
+}
+.custom-checkbox:after,
+.custom-checkbox-cross:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */

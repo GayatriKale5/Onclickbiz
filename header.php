@@ -35,7 +35,9 @@
 		<div class="collapse navbar-collapse onclick-navbar-collapse col-md-9 col-md-offset-2" id="navbarNavDropdown">
 			<ul class="navbar-nav onclick-navbar-nav">
 				<li class="nav-item  active ml-1 mr-1">
-					<a class="nav-link" href="home.php">HOME</a>
+					<a class="nav-link" href="home.php">
+					    HOME <span class="sr-only">(current)</span>
+				    </a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="categories.php">CATEGORIES</a>
@@ -53,7 +55,8 @@
 						<a class="dropdown-item" href="product.php">Product</a>		
 						<a class="dropdown-item" href="detail-product.php">Detail Product</a>	
 						<a class="dropdown-item" href="categories.php">Categories</a>
-						<a class="dropdown-item" href="#">My Project Vendor</a>
+						<a class="dropdown-item" href="dashboard-user.php">User Dashboard</a>
+						<a class="dropdown-item" href="dashboard-vendor.php">Vendor Dashboard</a>
 					</div>
 				</li>
 				<li class="nav-item">

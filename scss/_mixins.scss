@@ -28,6 +28,14 @@
  	appearance: $val;
  }
 
+ @mixin transformRotate($transform) {
+ 	-moz-transform:    rotate($transform);
+ 	-o-transform:      rotate($transform);
+ 	-webkit-transform: rotate($transform);
+ 	-ms-transform:     rotate($transform);
+ 	transform:         rotate($transform);
+ }
+
  @mixin transformScale($transform) {
  	-moz-transform:    scale($transform);
  	-o-transform:      scale($transform);
