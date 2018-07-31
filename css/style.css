@@ -1680,7 +1680,7 @@ input[type=number].rate-row-number-week::-webkit-outer-spin-button {
   margin: 45px 33px 20px 33px;
 }
 .dashboard-container .dashboard-page-menu {
-  padding: 33px 13px 13px 13px;
+  padding: 25px 13px 13px 13px;
   font-size: 1.6rem;
   color: #fff;
   border-radius: 3px;
