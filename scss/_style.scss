@@ -219,10 +219,10 @@
  margin-top: 2px;
 
  @media(max-width: 990px) {
-    & {
-      margin-left: -16px;
-    }
- }
+  & {
+    margin-left: -16px;
+  }
+}
 
 }
 
@@ -604,7 +604,7 @@ $header-btn-size: 14px;
  		border: 0;
  		background: $color-card-bg;
  		margin-bottom: 30px;
- 		@include box-shadow(0, 0, 4px, 3px, rgba(238, 238, 238, 1));
+ 		@include box-shadow(0, 0, 4px, 3px, rgba(238, 238, 238, 1));   
  	}
 
  	& .card-title {
@@ -1869,10 +1869,11 @@ input[type=number].otp-number::-webkit-outer-spin-button {
     }
 
     & h3 {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       
       & i {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        padding-right: 0.5px;
       }
     }
   }
@@ -1965,14 +1966,14 @@ input[type=number].otp-number::-webkit-outer-spin-button {
     cursor: pointer;
   }
 
-  /* Show the custom-checkbox when checked */
+  /* display custom-checkbox when checked */
   & input:checked ~ .custom-checkbox:after,
   & input:checked ~ .custom-checkbox-cross:after {
     display: block;
   }
 
 
-  /* Style the custom-checkbox/indicator */
+  /* custom-checkbox indicator check and cross*/
   & .custom-checkbox:after {
     left: 9px;
     top: -6px;
@@ -1996,7 +1997,7 @@ input[type=number].otp-number::-webkit-outer-spin-button {
   }
 }
 
-/* Create a custom checkbox */
+/* custom checkbox */
 .custom-checkbox,
 .custom-checkbox-cross {
   position: absolute;
@@ -2006,10 +2007,269 @@ input[type=number].otp-number::-webkit-outer-spin-button {
   width: 19px;
   background-color: $color-white;
 
-  /* Create the custom-checkbox/indicator (hidden when not checked) */
+  /* custom-checkbox hidden when not checked */
   &:after {
     content: "";
     position: absolute;
     display: none;
+  }
+}
+
+
+/*===========================================
+
+ *** PAYMENT DETAILS DASHBOARD STYLES ***
+
+ =============================================*/
+
+ $color-payment-title: #2A2A2A;
+ $color-payment-subtitle: #202020;
+ $color-payment-desc: #3F3F3F;
+ $color-payment-form-label: #464646;
+ $color-payment-white: #E2FFFF;
+
+ .sidebar-sticky.payment-sidebar{
+  height: 163vh;
+}
+
+.payment-details-container {
+  /*font-weight: 500;*/
+
+  & .summary-row {
+    margin-right: 1.5rem;    
+
+    & .summary-colm {
+      margin-left: 1rem;
+    }
+  }
+
+  & .summary-jumbotron {
+    background-color: $color-card-bg;
+
+    & h1 {
+      color: $color-payment-title;
+    }
+
+    & p {
+      color: $color-payment-subtitle;
+    }
+
+    & .payment-table {
+      vertical-align: middle; 
+      @include box-shadow(2px, 2px, 17px, 1px, rgba(226, 226, 226, 1));     
+
+      & thead {
+        background-color: $color-blue;
+        color: $color-white;
+
+        & td {          
+          /*font-weight: 500;*/
+          font-size: 1.2rem; 
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+      }
+
+      & tbody {
+        background-color: $color-white;
+        color: $color-payment-desc;
+
+        & td {
+          font-weight: 500; 
+          font-size: 1.1rem;          
+          padding-left: 2rem;
+          padding-right: 3rem;
+
+          & i {
+            font-style: normal;
+            font-size: 1.08rem;
+            padding-right: 2px;
+            font-weight: 600;           
+          }
+        }
+      }
+    }
+  }
+
+  & .billing-info-row {
+    margin-top: -38px;
+    margin-right: 1.5rem;    
+
+    & .billing-info-colm {
+      margin-left: 1rem;
+    }
+  }
+
+  & .billing-outer-jumbotron {
+    background-color: $color-white;
+
+    & .payment-option-jumbotron {
+      padding: 0;
+      border-radius: 2px;
+      background-color: $color-card-bg;
+      @include box-shadow(0, 5px, 13px, 2px, rgba(226, 226, 226, 1));
+
+      & .payment-row {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+
+        & h5 {
+          font-size: 1.3rem;
+          color: $color-payment-desc;        
+          padding-left: 2.1rem;
+          padding-top: 0;
+        }
+
+        /*payment card icons*/
+        & .payment-options-card {
+          font-size: 3rem;
+          padding-left: 3rem;
+
+          & .pay-paypal {
+            color: #009CDE;            
+          }
+
+          & .pay-visa {
+            color: #161D6E;
+          }
+
+          & .pay-discover {
+            color: #EA6317;
+          }
+
+          & .pay-mastercard {
+            color: #FE6102;
+          }
+
+        }
+
+        /*arrow icon*/
+        & .payment-row-arrow {
+          position: absolute;
+          bottom: -15px;
+          font-size: 1.5rem;
+          color: lighten($color-blue, 15%);
+          @media(max-width: 767px) {
+            & {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    & .credit-card-row {
+      margin-top: 5rem;
+
+      & .credit-card-h5 {
+        font-size: 1.27rem;
+        color: $color-payment-desc;        
+        padding-left: 2.1rem;
+        padding-bottom: 1.5rem;
+        padding-top: 0;
+
+        @media(max-width: 767px) {
+          & {
+             padding-left: 1.1rem;
+          }
+        }
+
+        & .credit-card-star {
+          font-style: normal;
+          color: lighten($color-blue, 10%);
+        }
+      }
+
+      & .form-colm {
+        padding-right: 52px;
+
+        @media(max-width: 767px) {
+          & {
+            padding-right: 0;
+          }
+        }
+      }
+
+      & .payment-form {
+
+        & .form-control {
+          @include border-radius(1px);
+          background-color: $color-card-bg;
+          font-weight: 500;
+          color: $color-payment-desc;
+          border: 1px solid #EFEFEF;
+          height: 41px;
+        }
+
+        & label {
+          font-weight: 500;
+          color: $color-payment-form-label;
+        }
+
+        & .payment-pay-btn {
+          height: 43px;
+          width: 137px;
+          line-height: 21px;
+          font-size: 20px;
+          @include border-radius(1px);
+          margin-top: 1.7rem;
+        }
+      }
+    }
+  }
+}
+
+input[type=number]#payment-credit-card-exp-month::-webkit-inner-spin-button, 
+input[type=number]#payment-credit-card-exp-month::-webkit-outer-spin-button,
+input[type=number]#payment-credit-card-year::-webkit-inner-spin-button, 
+input[type=number]#payment-credit-card-year::-webkit-outer-spin-button,
+input[type=number]#payment-credit-card-code::-webkit-inner-spin-button, 
+input[type=number]#payment-credit-card-code::-webkit-outer-spin-button { 
+  @include appearance(none);
+  margin: 0; 
+}
+
+@media(max-width: 395px) {
+  .payment-details-container .summary-jumbotron h1 {
+    font-size: 2rem;
+  }
+
+  .payment-details-container .summary-jumbotron p {
+    font-size: 1rem;
+  }
+
+  .payment-details-container .summary-jumbotron .payment-table thead td {
+    font-size: 1rem;
+    padding-left: 0.8rem; 
+    padding-right: 0.8rem; 
+  }
+
+  .payment-details-container .summary-jumbotron .payment-table tbody td {
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding-left: 0.8rem;
+    padding-right: 1.8rem;
+  }
+
+  .payment-details-container .billing-outer-jumbotron .payment-option-jumbotron .payment-row h5 {
+    padding-left: 1.1rem;
+  }
+
+  .payment-details-container .summary-row .summary-colm {
+    margin-left: 0;
+  }
+
+  .payment-details-container .summary-row {
+    margin-right: -11px;
+  }
+
+  .payment-details-container .billing-info-row .billing-info-colm {
+    margin-left: 0rem;
+  }
+
+  .payment-details-container .billing-info-row {
+    margin-top: -38px;
+    margin-right: -11px;
   }
 }

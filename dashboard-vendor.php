@@ -9,10 +9,10 @@
   <!-- Sidebar -->
   <nav class="col-md-2 d-none d-md-block bg-light sidebar h-100 sidebar-dashboard">
     <div class="sidebar-sticky">
-      <ul class="nav flex-column pl-3">
+      <ul class="nav flex-column pl-2">
         <li class="nav-item">
           <a class="nav-link active" href="#">
-            <h3>Dashboard</h3>
+            <h3><i class="fas fa-tachometer-alt"></i> Dashboard</h3>
           </a>
         </li>
         <li class="nav-item">
@@ -26,7 +26,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="payment-details.php">
             Payment Details
           </a>
         </li>

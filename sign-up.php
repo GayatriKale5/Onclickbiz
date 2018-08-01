@@ -53,7 +53,7 @@
 							<hr>
 						</div>	
 						<div class="col-4 col-sm-6 text-center pt-1">
-							<p>Already have an account? <a href="login.php">Login</a></p>
+							<p>Already have an account? <a href="login.php" class="d-block">Login</a></p>
 						</div>	
 						<div class="col-4 col-sm-3 pl-0">
 							<hr>
