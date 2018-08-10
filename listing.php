@@ -24,7 +24,7 @@
 	<div class="row mb-3 mt-5 listing-search-services-row">
 		<div class="col-12 col-lg-3">
 			<form class="form-inline my-2 my-lg-0 search-page-form listing-page-form text-center" method="post" action="sign-up.php">
-				<input class="form-control mr-sm-2 search-input-search-page search-input-listing-page" type="search" placeholder="Enter service(s) you provide" aria-label="Search">
+				<input class="form-control mr-sm-2 search-input-search-page search-input-listing-page" type="search" placeholder="Enter service(s)" aria-label="Search">
 
 				<button class="btn btn-outline-success btn-post-job search-btn-search-page search-btn-listing-page my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
 			</form>			

@@ -2411,8 +2411,14 @@ input[type=number]#payment-credit-card-code::-webkit-outer-spin-button {
 }
 
 .search-btn-listing-page {
-  left: 19%;
+  left: 215px;
   top: 2px;
+
+  @media(max-width: 1237px) {
+    & {
+      left: 185px !important;
+    }
+  }
 }
 
 .listing-services-jumbotron {
@@ -2471,7 +2477,7 @@ input[type=number]#payment-credit-card-code::-webkit-outer-spin-button {
     z-index: 111;
 
     & i {
-      margin-top: -19px;
+      margin-top: -32px;
       float: right;
       font-size: 20px;
       color: #fff;
