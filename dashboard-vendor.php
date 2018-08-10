@@ -81,7 +81,7 @@
                 <td scope="col">Project Name</td>
                 <td scope="col">My Bid</td>
                 <td scope="col">Avg Bid</td>
-                <td scope="col">Bid End Date</td>
+                <!-- <td scope="col">Bid End Date</td> -->
                 <td scope="col">Action</td>
               </tr>
             </thead>
@@ -90,7 +90,7 @@
                 <td scope="row">XYZ</td>
                 <td>65<i>₹</i></td>
                 <td>48<i>₹</i></td>                  
-                <td>2/7/2018</td>
+                <!-- <td>2/7/2018</td> -->
                 <td>                    
                   <a href="#" class="btn btn-primary btn-post-job btn-post-job-header project-dashboard-btn">
                     Edit/Rebid
@@ -101,7 +101,7 @@
                 <td scope="row">ABC</td>
                 <td>30<i>₹</i></td>
                 <td>25<i>₹</i></td>                  
-                <td>8/5/2018</td>
+                <!-- <td>8/5/2018</td> -->
                 <td>                    
                   <a href="#" class="btn btn-primary btn-post-job btn-post-job-header project-dashboard-btn">
                     Edit/Rebid
@@ -112,7 +112,7 @@
                 <td scope="row">PQR</td>
                 <td>70<i>₹</i></td>
                 <td>60<i>₹</i></td>                  
-                <td>1/4/2018</td>
+                <!-- <td>1/4/2018</td> -->
                 <td>                    
                   <a href="#" class="btn btn-primary btn-post-job btn-post-job-header project-dashboard-btn">
                     Edit/Rebid
@@ -132,12 +132,12 @@
             <thead>
               <tr class="text-center">
                 <td scope="col" rowspan="2">Project <br>Name</td>
-                <td scope="col" rowspan="2">Project <br>Progress</td>                  
+                <td scope="col" rowspan="2">Milestone</td>                  
                 <td scope="col" colspan="3">
                   Project Completed
                   <tr class="text-center">                    
                     <td scope="col">Vendor</td>
-                    <td scope="col" class="pl-5">Client</td>
+                    <td scope="col">Client</td>
                     <td scope="col">Onclick</td>
                   </tr>
                 </td>                  
@@ -155,12 +155,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                                       <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>                  
                 <td>
@@ -171,12 +171,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                                       <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>
                 <td>
@@ -197,12 +197,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                                       <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>                  
                 <td>
@@ -213,12 +213,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                                       <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>
                 <td>
@@ -239,12 +239,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                                       <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>                  
                 <td>
@@ -255,12 +255,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                                       <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>
                 <td>

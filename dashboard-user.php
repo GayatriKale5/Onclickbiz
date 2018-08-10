@@ -76,7 +76,7 @@
                 <td scope="col">Project Name</td>
                 <td scope="col">Vendor Name</td>
                 <td scope="col">Bid</td>
-                <td scope="col">Bid End Date</td>
+                <!-- <td scope="col">Bid End Date</td> -->
                 <td scope="col">Action</td>
               </tr>
             </thead>
@@ -85,7 +85,7 @@
                 <td scope="row">XYZ</td>
                 <td>PQR</td>
                 <td>48<i>₹</i></td>                  
-                <td>2/7/2018</td>
+                <!-- <td>2/7/2018</td> -->
                 <td>                    
                   <a href="#" class="btn btn-primary btn-post-job btn-post-job-header project-dashboard-btn">
                     Award
@@ -96,7 +96,7 @@
                 <td scope="row">ABC</td>
                 <td>XYZ</td>
                 <td>25<i>₹</i></td>                  
-                <td>8/5/2018</td>
+                <!-- <td>8/5/2018</td> -->
                 <td>                    
                   <a href="#" class="btn btn-primary btn-post-job btn-post-job-header project-dashboard-btn">
                     Award
@@ -107,7 +107,7 @@
                 <td scope="row">PQR</td>
                 <td>ABC</td>
                 <td>60<i>₹</i></td>                  
-                <td>1/4/2018</td>
+                <!-- <td>1/4/2018</td> -->
                 <td>                    
                   <a href="#" class="btn btn-primary btn-post-job btn-post-job-header project-dashboard-btn">
                     Award
@@ -127,12 +127,12 @@
             <thead>
               <tr class="text-center">
                 <td scope="col" rowspan="2">Project <br>Name</td>
-                <td scope="col" rowspan="2">Project <br>Progress</td>                  
+                <td scope="col" rowspan="2">Milestone</td>                  
                 <td scope="col" colspan="3">
                   Project Completed
                   <tr class="text-center">                    
                     <td scope="col">Vendor</td>
-                    <td scope="col" class="pl-5">Client</td>
+                    <td scope="col">Client</td>
                     <td scope="col">Onclick</td>
                   </tr>
                 </td>                  
@@ -150,12 +150,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+<!--                     <div class="col-6  m-0 p-0">
                       <label class="label-row">
                       <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>                  
                 <td>
@@ -166,12 +166,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                    <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>
                 <td>
@@ -192,12 +192,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                    <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>                  
                 <td>
@@ -208,12 +208,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                    <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>
                 <td>
@@ -234,12 +234,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                    <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>                  
                 <td>
@@ -250,12 +250,12 @@
                         <div class="custom-checkbox"></div>                   
                       </label>
                     </div>
-                    <div class="col-6  m-0 p-0">
+                    <!-- <div class="col-6  m-0 p-0">
                       <label class="label-row">
                         <input type="checkbox">
                         <div class="custom-checkbox-cross"></div>                   
                       </label>
-                    </div>
+                    </div> -->
                   </div>
                 </td>
                 <td>
