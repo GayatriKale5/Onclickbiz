@@ -6,41 +6,8 @@
 
 <div class="row">
 
-  <!-- Sidebar -->
-  <nav class="col-md-2 d-none d-md-block bg-light sidebar h-100 sidebar-dashboard">
-    <div class="sidebar-sticky payment-sidebar">
-      <ul class="nav flex-column pl-2">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">
-            <h3><i class="fas fa-tachometer-alt"></i> Dashboard</h3>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="dashboard-user.php">
-            Customer
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="dashboard-vendor.php">
-            Vendor
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="payment-details.php">
-            Payment Details <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            New Business
-          </a>  
-        </li>
-      </ul>
-    </div>
-  </nav>
-
   <!-- Page Content -->
-  <div class="col-md-10">
+  <div class="col-12">
     <div class="container payment-details-container">
       <!-- payment summary -->
       <div class="row summary-row">

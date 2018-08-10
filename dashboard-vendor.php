@@ -26,7 +26,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="payment-details.php">
+          <a class="nav-link" href="#">
             Payment Details
           </a>
         </li>

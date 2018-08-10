@@ -57,7 +57,8 @@
 						<a class="dropdown-item" href="categories.php">Categories</a>
 						<a class="dropdown-item" href="dashboard-user.php">User Dashboard</a>
 						<a class="dropdown-item" href="dashboard-vendor.php">Vendor Dashboard</a>
-						<a class="dropdown-item" href="payment-details.php">Payment Details</a>
+						<a class="dropdown-item" href="payment-gateway.php">Payment Gateway</a>
+						<a class="dropdown-item" href="listing.php">Listing</a>
 					</div>
 				</li>
 				<li class="nav-item">

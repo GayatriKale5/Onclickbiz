@@ -12,7 +12,7 @@
 			</h2>
 			<div class="row">
 				<div class="col-lg-12 search-btn-colm">
-					<form class="form-inline my-2 my-lg-0">
+					<form method="post" action="listing.php" class="form-inline my-2 my-lg-0">
 
 						<input class="form-control mr-sm-2 search-input" type="search" placeholder="Enter Services" aria-label="Search">
 
