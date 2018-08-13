@@ -2274,11 +2274,13 @@ input[type=number]#payment-credit-card-code::-webkit-outer-spin-button {
   }
 }
 
-/*=======================================
+/*=========================================================
 
- *** LISTING PAGE STYLES ***
+ *** LISTING AND DISPLAY JOB POSTED PAGE STYLES ***
 
- =========================================*/
+ ==========================================================*/
+
+ /*LISTING PAGE STYLES*/
 
  .listing-container {
   & a {
@@ -2355,6 +2357,10 @@ input[type=number]#payment-credit-card-code::-webkit-outer-spin-button {
     & h5 {
       color: $color-card-title;
       font-size: 19px;
+    }
+
+    & .sub-title-cat {
+      font-size: 18.3px !important;
     }
 
     & p {
@@ -2489,3 +2495,21 @@ input[type=number]#payment-credit-card-code::-webkit-outer-spin-button {
 
 }
 
+/*DISPLAY JOB POSTED PAGE STYLES*/
+
+.display-job-posted-container {
+
+  & .listing-cat-link-btn {
+    width: 150px;
+  }
+}
+
+.display-job-posted-colm {
+  & h3 {
+    padding-bottom: 0;
+  }
+
+  & p {
+    padding-bottom: 2px;
+  }
+}

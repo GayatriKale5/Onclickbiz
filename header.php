@@ -59,6 +59,7 @@
 						<a class="dropdown-item" href="dashboard-vendor.php">Vendor Dashboard</a>
 						<a class="dropdown-item" href="payment-gateway.php">Payment Gateway</a>
 						<a class="dropdown-item" href="listing.php">Listing</a>
+						<a class="dropdown-item" href="display-job-posted.php">Display job posted</a>
 					</div>
 				</li>
 				<li class="nav-item">
