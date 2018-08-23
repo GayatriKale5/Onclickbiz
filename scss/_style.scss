@@ -1569,136 +1569,159 @@ input[type='search'].search-input-search-page {
  		}
 
  		& .desc-and-btn {
- 			& .jumbotron-bid-desc {
- 				background-color: lighten($color-blue, 16%);
- 				color: $color-black;
- 				border: 1px solid $color-grey;
- 			}
+      & .jumbotron {
+        background-color: transparent;
+      }
 
- 			& .no-of-bids-btn {
- 				width: 238px;
- 				height: 50px;
- 				font-size: 1.2rem;
- 			}
- 		}
+      & .jumbotron-bid-desc {
+       background-color: lighten($color-blue, 16%);
+       color: $color-black;
+       border: 1px solid $color-grey;
+     }
 
- 		& .rate-row {
- 			& h1 {
- 				color: $color-black;
- 				font-size: 1.3rem;
- 				padding-left: 1rem;
- 			}
+     & .no-of-bids-btn {
+       width: 238px;
+       height: 50px;
+       font-size: 1.2rem;
+     }
+   }
 
+   & .rate-row {
+    & h1 {
+     color: $color-black;
+     font-size: 1.3rem;
+     padding-left: 1rem;
+   }
 
- 			& .rate-row-form input[type='number'] {
- 				padding: 6.2px;
- 				font-size: 17px;
- 				border: 0;
- 				float: left;
- 				width: 48%;
- 				background: lighten($color-grey, 32%); 				
- 			}
+   & .form-control.btn-rate-row:focus {
+    color: #fff;
+  }
 
- 			@include placeholder($color-black);
- 			
- 			& .rate-row-form input:focus {
- 				outline: 0;
- 			}
-
- 			& .btn-rate-row {
- 				float: left;
- 				width: 52%;
- 				padding: 10px;
- 				cursor: pointer;
- 				@include border-radius(0);
- 				border-top-right-radius: 2px;
- 				border-bottom-right-radius: 2px;
- 				line-height: 1;
- 				font-size: 1.08rem;
-
- 				&:hover{
- 					background: darken($color-blue, 8%);
- 				}
- 			}
-
- 		}
-
- 		& .price-row {
- 			& p {
- 				margin-bottom: .3rem;
- 			}
-
- 			& .btn-qstn-mark {
- 				width: 0;
- 				height: 0;
- 				padding: 0;
- 				background: transparent;
- 				border: transparent;
-
- 				& i {
- 					color: $color-blue;
- 					font-size: 1rem;
- 				}
- 			}
- 			
- 			& .right-side-price {
- 				& p {
- 					color: $color-black;
-
- 					& i {
- 						font-style: normal;
- 						font-size: 1rem;
- 					}
- 				}
- 			}
- 		}
-
- 		& p.note-p {
- 			margin-top: 1rem;
- 		}
-
- 		& .blue-text {
- 			color: $color-blue;
- 			font-weight: normal;
- 		}
-
- 		& .btn-place-bid-row {
- 			& .place-bid-btn,
- 			& a {
- 				font-size: 1.3rem;
- 			}
- 		}
-
- 	}
+  & .rate-row-form input[type='number'] {
+   padding: 6.2px;
+   font-size: 17px;
+   border: 0;
+   float: left;
+   width: 35%;
+   background: lighten($color-grey, 32%); 				
  }
 
- /*question mark popover*/
- .popover {
- 	background: $color-card-bg;
- 	margin-left: 1.6rem;
- 	margin-top: 0.7rem;	
+ @include placeholder($color-black);
+
+ & .rate-row-form input:focus {
+   outline: 0;
  }
 
- .bs-popover-auto[x-placement^=right] .arrow::after, 
- .bs-popover-right .arrow::after {
- 	border-right-color: $color-card-bg; 	
+ & .btn-rate-row {
+   float: left;
+   width: 65%;
+   height: 39px;
+   padding: 0 1rem;
+   cursor: pointer;
+   @include border-radius(0);
+   border-top-right-radius: 2px;
+   border-bottom-right-radius: 2px;
+   line-height: 1;
+   font-size: 1.08rem;
+
+   &:hover{
+    background: darken($color-blue, 8%);
+  }
+}
+
+}
+
+& .price-row {
+  & p {
+   margin-bottom: .3rem;
  }
 
- .popover-body {
- 	color: $text-grey-color;
- 	font-size: .9rem;
- 	letter-spacing: 0.6px;
+ & .btn-qstn-mark {
+   width: 0;
+   height: 0;
+   padding: 0;
+   background: transparent;
+   border: transparent;
+
+   & i {
+    color: $color-blue;
+    font-size: 1rem;
+  }
+}
+
+& .right-side-price {
+ & p {
+  color: $color-black;
+
+  & i {
+   font-style: normal;
+   font-size: 1rem;
  }
+}
+}
+}
 
+& p.note-p {
+  margin-top: 1rem;
+}
 
- input[type=number].rate-row-number-hr::-webkit-inner-spin-button,
- input[type=number].rate-row-number-hr::-webkit-outer-spin-button,
- input[type=number].rate-row-number-week::-webkit-inner-spin-button,
- input[type=number].rate-row-number-week::-webkit-outer-spin-button { 
- 	@include appearance(none);
- 	margin: 0; 
+& .blue-text {
+  color: $color-blue;
+  font-weight: normal;
+}
+
+& .btn-place-bid-row {
+  & .place-bid-btn,
+  & a {
+   font-size: 1.3rem;
  }
+}
 
+}
+}
+
+/*question mark popover*/
+.popover {
+  background: $color-card-bg;
+  margin-left: 1.6rem;
+  margin-top: 0.7rem;	
+}
+
+.bs-popover-auto[x-placement^=right] .arrow::after, 
+.bs-popover-right .arrow::after {
+  border-right-color: $color-card-bg; 	
+}
+
+.popover-body {
+  color: $text-grey-color;
+  font-size: .9rem;
+  letter-spacing: 0.6px;
+}
+
+
+input[type=number].rate-row-number-hr::-webkit-inner-spin-button,
+input[type=number].rate-row-number-hr::-webkit-outer-spin-button,
+input[type=number].rate-row-number-week::-webkit-inner-spin-button,
+input[type=number].rate-row-number-week::-webkit-outer-spin-button { 
+  @include appearance(none);
+  margin: 0; 
+}
+
+
+.form-control.jumbotron-bid-desc::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $color-black !important;
+}
+.form-control.jumbotron-bid-desc:-moz-placeholder { /* Firefox 4 - 18 */
+  color: $color-black !important;
+  opacity: 1;
+}
+.form-control.jumbotron-bid-desc::-moz-placeholder { /* Firefox 19+ */
+  color: $color-black !important;
+  opacity: 1;
+}
+.form-control.jumbotron-bid-desc:-ms-input-placeholder { /* IE 10+ */
+  color: $color-black !important;
+}
 
  /*=======================================
 

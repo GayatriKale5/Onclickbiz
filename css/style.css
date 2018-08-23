@@ -1398,6 +1398,9 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
   padding-left: 1rem;
   font-size: 1.08rem;
 }
+.detail-product-container .jumbotron-bid-proposal .desc-and-btn .jumbotron {
+  background-color: transparent;
+}
 .detail-product-container .jumbotron-bid-proposal .desc-and-btn .jumbotron-bid-desc {
   background-color: #7ac6e9;
   color: #000;
@@ -1413,12 +1416,15 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
   font-size: 1.3rem;
   padding-left: 1rem;
 }
+.detail-product-container .jumbotron-bid-proposal .rate-row .form-control.btn-rate-row:focus {
+  color: #fff;
+}
 .detail-product-container .jumbotron-bid-proposal .rate-row .rate-row-form input[type='number'] {
   padding: 6.2px;
   font-size: 17px;
   border: 0;
   float: left;
-  width: 48%;
+  width: 35%;
   background: #ebeaeb;
 }
 .detail-product-container .jumbotron-bid-proposal .rate-row ::-webkit-input-placeholder {
@@ -1444,8 +1450,9 @@ input[type=number]#profile-mobile-number::-webkit-outer-spin-button {
 }
 .detail-product-container .jumbotron-bid-proposal .rate-row .btn-rate-row {
   float: left;
-  width: 52%;
-  padding: 10px;
+  width: 65%;
+  height: 39px;
+  padding: 0 1rem;
   cursor: pointer;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1517,6 +1524,28 @@ input[type=number].rate-row-number-week::-webkit-outer-spin-button {
   -moz-appearance: none;
   appearance: none;
   margin: 0;
+}
+
+.form-control.jumbotron-bid-desc::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #000 !important;
+}
+
+.form-control.jumbotron-bid-desc:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #000 !important;
+  opacity: 1;
+}
+
+.form-control.jumbotron-bid-desc::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #000 !important;
+  opacity: 1;
+}
+
+.form-control.jumbotron-bid-desc:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #000 !important;
 }
 
  /*=======================================
@@ -2043,11 +2072,12 @@ input[type=number]#payment-credit-card-code::-webkit-outer-spin-button {
     margin-right: -11px;
   }
 }
-/*=======================================
+/*=========================================================
 
- *** LISTING PAGE STYLES ***
+ *** LISTING AND DISPLAY JOB POSTED PAGE STYLES ***
 
- =========================================*/
+ ==========================================================*/
+/*LISTING PAGE STYLES*/
 .listing-container a {
   color: #8D8D8D;
 }
@@ -2114,11 +2144,9 @@ input[type=number]#payment-credit-card-code::-webkit-outer-spin-button {
   color: #121212;
   font-size: 19px;
 }
-
 .listing-categories .jumbotron .sub-title-cat {
-      font-size: 18.3px !important;
+  font-size: 18.3px !important;
 }
-
 .listing-categories .jumbotron p {
   font-size: 16px;
 }
@@ -2245,18 +2273,15 @@ input[type=number]#payment-credit-card-code::-webkit-outer-spin-button {
 }
 
 /*DISPLAY JOB POSTED PAGE STYLES*/
-
 .display-job-posted-container .listing-cat-link-btn {
-    width: 150px;
+  width: 150px;
 }
 
-.display-job-posted-colm  h3 {
-    padding-bottom: 0;
+.display-job-posted-colm h3 {
+  padding-bottom: 0;
 }
-
-.display-job-posted-colm  p {
-    padding-bottom: 2px;
+.display-job-posted-colm p {
+  padding-bottom: 2px;
 }
-
 
 /*# sourceMappingURL=style.css.map */

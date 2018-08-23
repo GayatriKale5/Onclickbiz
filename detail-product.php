@@ -45,9 +45,12 @@
 		<div class="col-12 text-left">
 			
 			<div class="row desc-and-btn pl-4 pt-4">
-				<div class="jumbotron jumbotron-bid-desc col-md-6 col-lg-8 p-0 pt-2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<div class="jumbotron col-md-6 col-lg-8 p-0 border-0">
+					<form>
+						<div class="form-group">
+							<textarea class="form-control jumbotron-bid-desc col-12" id="detail-product-bid-desc" rows="4" placeholder="Enter content"></textarea>
+						</div>
+					</form>
 				</div>
 				<div class="col-md-6 col-lg-4 text-center pt-4">
 					<a href="#"><button type="button" class="btn btn-primary send-otp-btn btn-post-job no-of-bids-btn">Number of Bids left 2/8</button></a>
@@ -58,25 +61,20 @@
 				<div class="col-md-5 col-lg-3 text-left mt-3">
 					<h1>Hourly Rate</h1>
 					<form class="rate-row-form ml-3" action="#" style="max-width:200px">
-  						<input type="number" placeholder="10" name="rupees" class="rate-row-number-hr">
-  						<button type="submit" class="btn btn-primary send-otp-btn btn-post-job btn-rate-row">
-  							Rupees/Hr
-  						</button>
+						<input type="number" placeholder="10" name="rupees" class="rate-row-number-hr">
+						<div class="form-group">								
+							<select class="form-control send-otp-btn btn-post-job btn-rate-row" id="bid-rs-hr">
+								<option selected>Select</option>
+								<option>One Time</option>
+								<option>Hourly</option>
+								<option>Weekly</option>									
+							</select>
+						</div>
 					</form>
-				</div>
-				<div class="col-md-5 col-lg-3 text-left mt-3">
-					<h1>Weekly Rate</h1>
-					<form class="rate-row-form ml-3" action="#" style="max-width:200px">
-  						<input type="number" placeholder="40" name="rupees" class="rate-row-number-week">
-  						<button type="submit" class="btn btn-primary send-otp-btn btn-post-job btn-rate-row">
-  							Hours
-  						</button>
-					</form>
-				</div>
-			</div>
+				</div>			
 
 
-			<div class="row price-row">
+			<div class="row price-row mt-3 pl-md-3">
 				<div class="col-12 col-md-4 col-lg-3 text-left left-side-text">
 					<p>Project Fee</p>
 				</div>
@@ -90,43 +88,43 @@
 						Your Total Bid 
 						<button type="button" class="btn btn-primary send-otp-btn btn-post-job btn-qstn-mark mb-4 ml-1" data-container="body" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua.">
-						    <i class="fas fa-question-circle"></i>
-						</button>
-					</p>
-				</div>
-				<div class="col-12 col-md-8 col-lg-9 pb-2 text-left right-side-price">				
-					<p><i>₹</i>1.111 Rupees/Hr</p>					
-				</div>
-
-
-				<div class="col-12 col-md-4 col-lg-3 text-left left-side-text">				
-					<p>
-						Weekly Milestone 
-						<button type="button" class="btn btn-primary send-otp-btn btn-post-job btn-qstn-mark mb-4 ml-1" data-container="body" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.">
-							<i class="fas fa-question-circle"></i>
-						</button>	
-					</p>
-				</div>
-				<div class="col-12 col-md-8 col-lg-9 pb-2 text-left right-side-price">				
-					<p><i>₹</i>444 Rupees/Hr</p>
-				</div>
+						<i class="fas fa-question-circle"></i>
+					</button>
+				</p>
+			</div>
+			<div class="col-12 col-md-8 col-lg-9 pb-2 text-left right-side-price">				
+				<p><i>₹</i>1.111 Rupees/Hr</p>					
 			</div>
 
-			<p class="note-p"><b class="blue-text">Note:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-			<hr class="my-auto pb-3 pt-2">
-
-			<div class="row btn-place-bid-row mb-5">
-				<div class="col-12 col-md-10 text-right">
-					<a href="#"><button type="button" class="btn btn-primary send-otp-btn btn-post-job place-bid-btn">Place Bid</button></a>
-				</div>
-				<div class="col-12 col-md-2 text-left my-auto">
-					<a href="#">Cancel</a>
-				</div>
-			</div>
+			<div class="col-12 col-md-4 col-lg-3 text-left left-side-text">				
+				<p>
+					Weekly Milestone 
+					<button type="button" class="btn btn-primary send-otp-btn btn-post-job btn-qstn-mark mb-4 ml-1" data-container="body" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.">
+					<i class="fas fa-question-circle"></i>
+				</button>	
+			</p>
+		</div>
+		<div class="col-12 col-md-8 col-lg-9 pb-2 text-left right-side-price">				
+			<p><i>₹</i>444 Rupees/Hr</p>
 		</div>
 	</div>
+
+	<p class="note-p ml-md-3 pb-3"><b class="blue-text">Note:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+	<hr class="my-auto pb-3 pt-2">
+
+	<div class="row btn-place-bid-row mb-5">
+		<div class="col-12 col-md-10 text-right">
+			<a href="#"><button type="button" class="btn btn-primary send-otp-btn btn-post-job place-bid-btn">Place Bid</button></a>
+		</div>
+		<div class="col-12 col-md-2 text-left my-auto">
+			<a href="#">Cancel</a>
+		</div>
+	</div>
+</div>
+</div>
 
 </div>
 
